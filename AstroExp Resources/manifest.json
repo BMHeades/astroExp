@@ -1,17 +1,17 @@
 {
     "format_version": 1,
     "header": {
-        "description": "[v1.1.0] Reach for the stars! Made by @solvedDev",
+        "description": "[v1.2.0] Reach for the stars! Made by @solvedDev & @bmheades",
         "name": "§6Astronomic Expansion",
-        "uuid": "aaae18bd-adc4-4fad-8714-94fd736265ed",
-        "version": [1, 1, 0]
+        "uuid": "191ebf52-9280-43a5-95f8-bb27a5411fb7",
+        "version": [1, 2, 0]
     },
     "modules": [
         {
             "description": "Astronomic Expansion Res",
             "type": "resources",
-            "uuid": "ff4a0d38-3990-43c9-bf3e-6029c3d2ff75",
-            "version": [1, 1, 0]
+            "uuid": "849a7314-6aff-4510-af96-90891f1500c4",
+            "version": [1, 2, 0]
         }
     ]
 }
