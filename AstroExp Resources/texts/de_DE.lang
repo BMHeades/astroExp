@@ -2,10 +2,679 @@
 tile.yellow_flower..name=Astronomisches Item	#
 tile.yellow_flower.dandelion.name=Astronomisches Item	#
 tile.red_flower.poppy.name=Astronomisches Item	#
-item.spawn_egg.entity.shulker.name=Maschinen Block	#
+
 
 ## Interaction names
 action.interact.summon_galactic_zombie=Stärke Zombie	#
 
+
 ## Entity names
 entity.villager.astronomer=Astronom	#
+
+
+##Loading Messages
+loadingmessage.text.1=Das Astronomische Expansion Addon wurde von @solvedDev und @bmheades entwickelt. Folge den Erstellern auf Twitter!	#
+loadingmessage.text.2=Du kannst Sternenstaub in Verlieskisten finden. Zudem kannst du ihn auch fischen.	#
+loadingmessage.text.3=Stärke Zombies indem du ihnen Sternenstaub gibst. Diese galaktischen Zombies droppen einen Sternentrank.	#
+loadingmessage.text.4=Hexen können einen Magietrank droppen. Diesen kannst du nutzen, um ein Amulet der Magie herzustellen.	#
+loadingmessage.text.5=Wölfe, Ocelots und Eisbären hinterlassen Fell nach ihrem Tod.	#
+loadingmessage.text.6=Du kannst dich in einen Vampir, einen Werwolf, eine Hydra oder einen Drachen verwandeln. Der Magier hat mehr Informationen über das Ritual.	#
+loadingmessage.text.7=Du kannst die Lebensessenz von Wölfen und Fledermäusen sstehlen. Klicke dazu mit einem leeren Essenzglas auf das Tier.	#
+loadingmessage.text.8=Enderman, Vindicatoren und Baby Zombies droppen korrupte Gegenstände. Diese können verwendet werden um Attributspigmente herzustellen.	#
+loadingmessage.text.9=Mit korrupten Gegenständen kannst du Gesundheits-, Schadens- und Geschwindigkeitspigmente herstellen. Diese kannst du nutzen, um dein Sternenschwert zu stärken.	#
+loadingmessage.text.10=Papageien droppen farbige Federn. Diese können zur Herstellung von Pfeilen oder der goldenen Feder genutzt werden.	#
+loadingmessage.text.11=Dorfbewohner schalten neue Angebote frei, wenn du viel mit ihnen handelst.	#
+loadingmessage.text.12=Der Astronom ist ein Experte auf dem Gebiet der astronomischen Gegenstände. Er weiß bestimmt mehr über die neuen Items.	#
+loadingmessage.text.13=Dieses Addon fügt neue einzigartige Waffen und Gegenstände hinzu. Probiere sie aus!
+loadingmessage.text.14=Wenn du nicht weißt, welches Item du gerade erhalten hast, schaue in den Guide, der ins Spiel integriert ist.	#
+loadingmessage.text.15=Dieses Addon wird mit regelmäßigen Updates versorgt.	#
+loadingmessage.text.16=Du kannst eine Fledermaus zähmen indem du ihr Käfer gibst.	#
+loadingmessage.text.17=	#
+loadingmessage.text.18=	#
+loadingmessage.text.19=	#
+loadingmessage.text.20=	#
+
+
+
+##		INGAME GUIDE
+##Categories
+howtoplay.category.changelogs=Changelogs	#
+howtoplay.category.entities=Lebewesen	#
+howtoplay.category.items=Gegenstände	#
+howtoplay.category.weapons=Waffen	#
+howtoplay.category.blocks=Blöcke	#
+howtoplay.category.transformations=Transformationen	#
+howtoplay.category.quests=Aufgaben	#
+
+
+
+##		GUIDE SECTIONS
+##	CHANGELOGS
+##v0.8.0
+howtoplay.v0_8=v0.8.0	#
+howtoplay.v0_8.title=v0.8.0	#
+howtoplay.v0_8.header.1=Neue Funktionen:	#
+howtoplay.v0_8.text.1=Initial launch of the Astronomic Expansion Addon. v0.8.0 added 7 new items to Minecraft. They were all sold by the Astronomer Villager.	#
+
+##v0.9.0
+howtoplay.v0_9=v0.9.0	#
+howtoplay.v0_9.title=v0.9.0	#
+howtoplay.v0_9.header.1=Neue Funktionen in v.0.9.0:	#
+howtoplay.v0_9.text.1=Galactic Zombie, Star Flower, Red Star Flower, Werewolf & Vampire Transformation, Magician Villager, option to turn villagers into #AstroExp profession and partial support for German translations.	#
+howtoplay.v0_9.header.2=New Features in v.0.9.1:	#
+howtoplay.v0_9.text.2=Tutorial World, Chinese Translations & bug fixes	#
+
+##v1.0.0
+howtoplay.v1_0=v1.0.0	#
+howtoplay.v1_0.title=v1.0.0	#
+howtoplay.v1_0.header.1=Neue Funktionen:	#
+howtoplay.v1_0.text.1=Health/Damage/Speed Pigments, boost your Star Sword with pigments, Corrupted Hearts/Flesh/Souls, 3 Hammers, Steel Ingots, Steel/Emerald Swords.	#
+
+##v1.1.0
+howtoplay.v1_1=v1.1.0	#
+howtoplay.v1_1.title=v1.1.0	#
+howtoplay.v1_1.header.1=Neue Funktionen:	#
+howtoplay.v1_1.text.1=	#
+howtoplay.v1_1.header.2=Änderungen:	#
+howtoplay.v1_1.text.2=new graphics for all old items, changed what astronomers request for their items, changed the umbrella to only lower gravity, elytra starter now has a maximum height (height of the clouds)	#
+howtoplay.v1_1.header.3=Fehlerbehebungen:	#
+howtoplay.v1_1.text.3=fixed immunity to fall damage after holding an umbrella & you can now probably trade for the elytra starter	#
+
+##v1.2.0
+howtoplay.v1_2=v1.2.0	#
+howtoplay.v1_2.title=v1.2.0	#
+howtoplay.v1_2.header.1=Neue Funktionen:	#
+howtoplay.v1_2.text.1=In-game guide, Villager JSON rewritten, better Minecarts, new Horse menu, you can now tame Bats, added bugs -No, not even more game-breaking issues :( ,  	#
+
+
+
+##	Story
+howtoplay.story=Geschichte	#
+howtoplay.story.title=Geschichte	#
+
+howtoplay.story.text.1=You often think about it -even after all the years. How did it happen that you haven't noticed all the things that one cannot explain with rational thoughts. The world is bigger than the physical concept of gravity or the mathematics in general. Thinking back now, you actually spotted the strange things but you haven't questioned it: Zombies, Skeletons, Enchantments! But what you haven't noticed is how tiny your human power is until a shadow stole the light shining on your future...	#
+howtoplay.story.text.2=	#
+howtoplay.story.text.3=	#
+howtoplay.story.text.4=	#
+howtoplay.story.text.5=	#
+
+
+
+##	Creator
+howtoplay.creator=Creators	#
+howtoplay.creator.title=Creators	#
+
+howtoplay.creator.header.1=Lead Developer - §lsolvedDev	#
+howtoplay.creator.text.1=solvedDev is founder and lead developer of the #AstroExp addon. He developed the first technique to add new items to Minecraft Bedrock. When he doesn't work on the Astronomic Expansion Adddon, he spends his time writing other addons, updating his addons or with "regular" programming. solvedDev is part of the PixelVerseTeam.	#
+
+howtoplay.creator.header.2=Developer - §lMyoHtet (@bmHeades)	#
+howtoplay.creator.text.2=MyoHtet joined the development in November to speed up the development cycle of #AstroExp. The first update he worked on was v1.2. 	#
+
+howtoplay.creator.header.3=Special Thanks To . . .	#
+howtoplay.creator.text.3=MCPEDL.com - §ofor the extraordinary work to present community created content and the kind help & support!	#
+howtoplay.creator.text.4=Translators - §owho translated this addon to other languages! Chinese: @lyca499, German: @solvedDev	#
+howtoplay.creator.text.5=My Community - §owho supported me during the long phase of developing #AstroExp v1.2!	#
+howtoplay.creator.text.6=Youtubers - §oFor all the videos about #AstroExp! They are helping a lot to make #AstroExp more popular.	#
+
+
+
+##	Getting Started
+howtoplay.gettingStarted=Getting Started...	#
+howtoplay.gettingStarted.title=Getting Started...	#
+
+
+
+##	Villager Trading
+howtoplay.villagerTrading=Villager Trading	#
+howtoplay.villagerTrading.title=Villager Trading	#
+
+
+
+##	Item Section
+howtoplay.generalItem=General	#
+howtoplay.generalItem.title=General Information about Items	#
+howtoplay.generalItem.text.1=§oThe Astronomic Expansion Addon adds items. Hundreds of new items. This is a kind of disclaimer so that you know what is possible and how you can use these new items.	#
+howtoplay.generalItem.text.2=First of all, we cannot add items to Minecraft yet. What this addon does is using a trick in order to add blocks which look like items in your inventory. Basically every type of item in this addon is secretely a flower. This has a couple of downsides: You can place the items down. Please just don't do that as this might result in loosing the item. In addition, I am not able to name the items. That's the reason why they are all called "Astronomic Item". In case you are wondering which item you just got, this in-game guide will help you. The last downside is that I cannot add vanilla Minecraft mechanics like drinking or eating something. If you got a potion, the way to use it is to hold it. If nothing happens, this potion is probably meant for crafting only or you need to meet another criteria. Take a look at the item guide in this case.	# 
+howtoplay.generalItem.text.3=And one last note: I am not incredible bad at spelling the alphabet... xD You still might find an unordered item encyclopedia because you are using #AstroExp in another language. This guide was designed for §oEnglish §rand this means that it won't fit for every other language.
+
+howtoplay.A_F=§lA §rto §lF	#
+howtoplay.A_F.title=Items from §lA §rto §lF	#
+howtoplay.G_M=§lG §rto §lM	#
+howtoplay.G_M.title=Items from §lG §rto §lM	#
+howtoplay.N_T=§lN §rto §lT	#
+howtoplay.N_T.title=Items from §lN §rto §lT	#
+howtoplay.U_Z=§lU §rto §lZ	#
+howtoplay.U_Z.title=Items from §lU §rto §lZ 	#
+
+howtoplay.A=A	#
+howtoplay.B=B	#
+howtoplay.C=C	#
+howtoplay.D=D	#
+howtoplay.E=E	#
+howtoplay.F=F	#
+howtoplay.G=G	#
+howtoplay.H=H	#
+howtoplay.I=I	#
+howtoplay.J=J	#
+howtoplay.K=K	#
+howtoplay.L=L	#
+howtoplay.M=M	#
+howtoplay.N=N	#
+howtoplay.O=O	#
+howtoplay.P=P	#
+howtoplay.Q=Q	#
+howtoplay.R=R	#
+howtoplay.S=S	#
+howtoplay.T=T	#
+howtoplay.U=U	#
+howtoplay.V=V	#
+howtoplay.W=W	#
+howtoplay.X=X	#
+howtoplay.Y=Y	#
+howtoplay.Z=Z	#
+
+howtoplay.A.title=Items with §lA	#
+howtoplay.B.title=Items with §lB	#
+howtoplay.C.title=Items with §lC	#
+howtoplay.D.title=Items with §lD	#
+howtoplay.E.title=Items with §lE	#
+howtoplay.F.title=Items with §lF	#
+howtoplay.G.title=Items with §lG	#
+howtoplay.H.title=Items with §lH	#
+howtoplay.I.title=Items with §lI	#
+howtoplay.J.title=Items with §lJ	#
+howtoplay.K.title=Items with §lK	#
+howtoplay.L.title=Items with §lL	#
+howtoplay.M.title=Items with §lM	#
+howtoplay.N.title=Items with §lN	#
+howtoplay.O.title=Items with §lO	#
+howtoplay.P.title=Items with §lP	#
+howtoplay.Q.title=Items with §lQ	#
+howtoplay.R.title=Items with §lR	#
+howtoplay.S.title=Items with §lS	#
+howtoplay.T.title=Items with §lT	#
+howtoplay.U.title=Items with §lU	#
+howtoplay.V.title=Items with §lV	#
+howtoplay.W.title=Items with §lW	#
+howtoplay.X.title=Items with §lX	#
+howtoplay.Y.title=Items with §lY	#
+howtoplay.Z.title=Items with §lZ	#
+
+
+
+##	ALL ITEM NAMES
+##A
+howtoplay.item.air_bubbles=Air Bubbles	#
+howtoplay.item.air_bubbles.text=Dropped by squids and used for villager trading. | Command: /give @s red_flower 1 190	#
+
+howtoplay.item.amethyst=Amethyst	#
+howtoplay.item.amethyst.text=A jewel made out of Amethyst Shards. | Command: /give @s red_flower 1 47	#
+
+howtoplay.item.amethyst_battleaxe=Amethyst Battleaxe	#
+howtoplay.item.amethyst_battleaxe.text=A weapon made out of Amethyst. | Command: /give @s red_flower 1 110	#
+
+howtoplay.item.amethyst_dagger=Amethyst Dagger	#
+howtoplay.item.amethyst_dagger.text=A weapon made out of Amethyst. | Command: /give @s red_flower 1 89	#
+
+howtoplay.item.amethyst_hammer=Amethyst Hammer	#
+howtoplay.item.amethyst_hammer.text=A weapon made out of Amethyst. | Command: /give @s red_flower 1 141	#
+
+howtoplay.item.amethyst_shard=Amethyst Shard	#
+howtoplay.item.amethyst_shard.text=Can be traded with a villager to gain Amethyst. | Command: /give @s red_flower 1 157	#
+
+howtoplay.item.amethyst_sword=Amethyst Sword	#
+howtoplay.item.amethyst_sword.text=A weapon made out of Amethyst. | Command: /give @s red_flower 1 58	#
+
+howtoplay.item.explosion_amulet=Amulet of Explosions	#
+howtoplay.item.explosion_amulet.text=This amulet protects you against any damage caused by explosions. You need to hold the amulet in your main hand in order to activate it. | Command: /give @s red_flower 1 169	#
+
+howtoplay.item.defender=Amulet of Fire	#
+howtoplay.item.defender.text=This amulet protects you against any damage caused by fire. You need to hold the amulet in your main hand in order to activate it. | Command: /give @s yellow_flower 1 7	#
+
+howtoplay.item.potion_amulet=Amulet of Magic	#
+howtoplay.item.potion_amulet.text=This amulet protects you against any damage caused by potions. You need to hold the amulet in your main hand in order to activate it. | Command: /give @s red_flower 1 170	#
+
+howtoplay.item.speed_amulet=Amulet of Speed	#
+howtoplay.item.speed_amulet.text=This amulet makes you incredible fast. You need to hold the amulet in your main hand in order to activate it. | Command: /give @s yellow_flower 1 6	#
+
+##B
+howtoplay.item.bat_wand=Bat Wand	#
+howtoplay.item.bat_wand.text=A wand used to control bats. | Command: /give @s red_flower 1 218	#
+
+howtoplay.item.blue_feather=Blue Feather	#
+howtoplay.item.blue_feather.text=Dropped by blue parrots and can be used for villager trading (golden feather & arrows). | Command: /give @s red_flower 1 175	#
+
+howtoplay.item.blue_wing=Blue Wing	#
+howtoplay.item.blue_wing.text=Dropped by the Vex and can be used to craft an Umbrella. | Command: /give @s red_flower 1 186	#
+
+howtoplay.item.bone_sword=Bone Sword	#
+howtoplay.item.bone_sword.text=An ancient weapon made out of bones. Average damage. | Command: /give @s red_flower 1 254	#
+
+howtoplay.item.broken_extract_bottle=Broken Extract Bottle	#
+howtoplay.item.broken_extract_bottle.text=This item isn't fully implemented into the game yet. | Command: /give @s red_flower 1 16	#
+
+howtoplay.item.brown_wing=Brown Wing	#
+howtoplay.item.brown_wing.text=Dropped by bats and can be used to gain an Umbrella or a Bat Wand. | Command: /give @s red_flower 1 188	#
+
+howtoplay.item.bug=Bug	#
+howtoplay.item.bug.text=A bug is a major game-breaking issue within a game's code- Uh, sorry wrong text. A bug can be found spawning around pigs. It can be used to tame bats. | Command: /give @s red_flower 1 208	#
+
+##C
+howtoplay.item.corrupted_flesh=Corrupted Flesh	#
+howtoplay.item.corrupted_flesh.text=Dropped by Baby Zombies and can be used to produce Speed Pigments. | Command: /give @s red_flower 1 25	#
+
+howtoplay.item.corrupted_heart=Corrupted Heart	#
+howtoplay.item.corrupted_heart.text=Dropped by Endermen and can be used to produce Health Pigments. | Command: /give @s red_flower 1 26	#
+
+howtoplay.item.corrupted_soul=Corrupted Soul	#
+howtoplay.item.corrupted_soul.text=Dropped by Vindicators and can be used to produce Damage Pigments. | Command: /give @s red_flower 1 27	#
+
+howtoplay.item.creeper_soul=Creeper Soul	#
+howtoplay.item.creeper_soul.text=Dropped by Creepers and can be used to for villager trading. | Command: /give @s red_flower 1 192	#
+
+howtoplay.item.creeper_wand=Creeper Wand	#
+howtoplay.item.creeper_wand.text=Can be crafted to become invisible to creepers. | Command: /give @s red_flower 1 220	#
+
+##D
+howtoplay.item.damage_pigment=Damage Pigments	#
+howtoplay.item.damage_pigment.text=Crafted with a Fiery Potion and a Corrupted Soul. Used for boosting the damage of a star sword. | Command: /give @s red_flower 1 30	#
+
+howtoplay.item.dark_jewel=Dark Jewel	#
+howtoplay.item.dark_jewel.text=A valueable jewel. Can be used to craft strong weapons. | Command: /give @s red_flower 1 62	#
+
+howtoplay.item.dark_jewel_battleaxe=Dark Jewel Battleaxe	#
+howtoplay.item.dark_jewel_battleaxe.text=A weapon made out of Dark Jewels. | Command: /give @s red_flower 1 112	#
+
+howtoplay.item.dark_jewel_dagger=Dark Jewel Dagger	#
+howtoplay.item.dark_jewel_dagger.text=A weapon made out of Dark Jewels. | Command: /give @s red_flower 1 91	#
+
+howtoplay.item.dark_jewel_hammer=Dark Jewel Hammer	#
+howtoplay.item.dark_jewel_hammer.text=A weapon made out of Dark Jewels. | Command: /give @s red_flower 1 143	#
+
+howtoplay.item.dark_jewel_sword=Dark Jewel Sword	#
+howtoplay.item.dark_jewel_sword.text=A weapon made out of Dark Jewels. | Command: /give @s red_flower 1 63	#
+
+howtoplay.item.diamond_battleaxe=Diamond Battleaxe	#
+howtoplay.item.diamond_battleaxe.text=A weapon made out of Diamonds. | Command: /give @s red_flower 1 96	#
+
+howtoplay.item.diamond_dagger=Diamond Dagger	#
+howtoplay.item.diamond_dagger.text=A weapon made out of Diamonds. | Command: /give @s red_flower 1 75	#
+
+howtoplay.item.diamond_hammer=Diamond Hammer	#
+howtoplay.item.diamond_hammer.text=A weapon made out of Diamonds. | Command: /give @s red_flower 1 43	#
+
+howtoplay.item.dragon_scurf=Dragon Scurf	#
+howtoplay.item.dragon_scurf.text=This item is a drop by Zombies in The End. It is used to craft Dragon Ingots. | Command: /give @s red_flower 1 238	#
+
+howtoplay.item.dragon_tail=Dragon Tail	#
+howtoplay.item.dragon_tail.text=Dropped by Charged Creepers. Used for crafting with Dragon Ingots. Can also be used as a weapon. | Command: /give @s red_flower 1 239	#
+
+##E
+howtoplay.item.elytra_starter=Elytra Starter	#
+howtoplay.item.elytra_starter.text=The Elytra Starter disables gravity while you hold it. This means you can walk right over gaps without worrying to fall. In addition, you can jump while holding it. This lifts you up in the air -the perfect start for your elytra flight. | Command: /give @s yellow_flower 1 4	#
+
+howtoplay.item.emerald=Emerald	#
+howtoplay.item.emerald.text=A jewel used for crafting weapons. | Command: /give @s red_flower 1 57	#
+
+howtoplay.item.emerald_battleaxe=Emerald Battleaxe	#
+howtoplay.item.emerald_battleaxe.text=A weapon made out of Emerald. | Command: /give @s red_flower 1 108	#
+
+howtoplay.item.emerald_dagger=Emerald Dagger	#
+howtoplay.item.emerald_dagger.text=A weapon made out of Emerald. | Command: /give @s red_flower 1 79	#
+
+howtoplay.item.emerald_hammer=Emerald Hammer	#
+howtoplay.item.emerald_hammer.text=A weapon made out of Emerald. | Command: /give @s red_flower 1 139	#
+
+howtoplay.item.emerald_shard=Emerald Shard	#
+howtoplay.item.emerald_shard.text=Used to craft Emerald. | Command: /give @s red_flower 1 155	#
+
+howtoplay.item.emerald_sword=Emerald Sword	#
+howtoplay.item.emerald_sword.text=A weapon made out of Emerald. | Command: /give @s red_flower 1 15	#
+
+howtoplay.item.empty_extract_bottle=Empty Extract Bottle	#
+howtoplay.item.empty_extract_bottle.text=Used to capture the life essence of Bats and Wolves. | Command: /give @s yellow_flower 1 15	#
+
+howtoplay.item.enderman_essence=Enderman Essence	#
+howtoplay.item.enderman_essence.text=Dropped by Endermen. Can be used for different trades. | Command: /give @s red_flower 1 240	#
+
+howtoplay.item.enderman_wand=Enderman Wand	#
+howtoplay.item.enderman_wand.text=Become invisible to Enderman! | Command: /give @s red_flower 1 221	#
+
+##F 
+howtoplay.item.fallen_star=Fallen Star	#
+howtoplay.item.fallen_star.text=The Fallen Star is a base ingredient for most villager trades. | Command: /give @s yellow_flower 1 2	#
+
+howtoplay.item.fallen_star_dust=Fallen Star Dust	#
+howtoplay.item.fallen_star_dust.text=The Fallen Star Dust can be used to create Fallen Star Powder. | Command: /give @s red_flower 1 154	#
+
+howtoplay.item.fallen_star_powder=Fallen Star Powder	#
+howtoplay.item.fallen_star_powder.text=The Fallen Star Powder can be found in dungeon chests or through fishing. It can be used to create Fallen Stars or strengthen Zombies. | Command: /give @s yellow_flower 1 1	#
+
+howtoplay.item.fallen_star_shard=Fallen Star Shard	#
+howtoplay.item.fallen_star_shard.text=The Fallen Star Shard can be found in dungeon chests. It is used to create Fallen Stars. | Command: /give @s red_flower 1 73	#
+
+howtoplay.item.fiery_essence=Fiery Essence	#
+howtoplay.item.fiery_essence.text=Dropped by Blazes and can be used for villager trading. | Command: /give @s red_flower 1 253	#
+
+howtoplay.item.fiery_potion=Fiery Potion	#
+howtoplay.item.fiery_potion.text=Gain this item through villager trading. It's used for several other items including Damage, Health and Speed Pigments. | Command: /give @s red_flower 1 28	#
+
+##G 
+howtoplay.item.glue=Glue	#
+howtoplay.item.glue.text=Can be used to make Villagers not move anymore. | Command: /give @s red_flower 1 235	#
+
+howtoplay.item.gold_battleaxe=Golden Battleaxe	#
+howtoplay.item.gold_battleaxe.text=A weapon made out of Gold. | Command: /give @s red_flower 1 107	#
+
+howtoplay.item.gold_dagger=Golden Dagger	#
+howtoplay.item.gold_dagger.text=A weapon made out of Gold. | Command: /give @s red_flower 1 78	#
+
+howtoplay.item.gold_hammer=Golden Hammer	#
+howtoplay.item.gold_hammer.text=A weapon made out of Gold. | Command: /give @s red_flower 1 138	#
+
+howtoplay.item.golden_air_bubbles=Golden Air Bubbles	#
+howtoplay.item.golden_air_bubbles.text=You can breathe underwater while holding this item. | Command: /give @s yellow_flower 1 9	#
+
+howtoplay.item.golden_feather=Golden Feather	#
+howtoplay.item.golden_feather.text=Makes you immune to fall damage while holding it. | Command: /give @s red_flower 1 171	#
+
+howtoplay.item.golden_horseshoe=Golden Horseshoe	#
+howtoplay.item.golden_horseshoe.text=Your pet will be faster if you put the Golden Horseshoe in the corresponding slot. | Command: /give @s red_flower 1 207	#
+
+howtoplay.item.gray_feather=Gray Feather	#
+howtoplay.item.gray_feather.text=This feather is a drop of the gray Parrot. Can be used for villager trading (golden feather & arrows). | Command: /give @s red_flower 1 172	#
+
+howtoplay.item.green_feather=Green Feather	#
+howtoplay.item.green_feather.text=This feather is a drop of the green Parrot. Can be used for villager trading (golden feather & arrows). | Command: /give @s red_flower 1 174	#
+
+howtoplay.item.green_wing=Green Wing	#
+howtoplay.item.green_wing.text=This wing is currently not fully implemented. | Command: /give @s red_flower 1 185	#
+
+howtoplay.item.guardian_spike=Guardian Spike	#
+howtoplay.item.guardian_spike.text=The Guardian Spike is a weapon dropped by Guardians. | Command: /give @s red_flower 1 251	#
+
+##H 
+howtoplay.item.health_pigment=Health Pigments	#
+howtoplay.item.health_pigment.text=You need a Fiery Potion and a Corrupted Heart in order to produce this item. It can be used to boost your Star Sword. | Command: /give @s red_flower 1 31	#
+
+##I 
+howtoplay.item.iron_battleaxe=Iron Battleaxe	#
+howtoplay.item.iron_battleaxe.text=A weapon made out of Iron. | Command: /give @s red_flower 1 106	#
+
+howtoplay.item.iron_dagger=Iron Dagger	#
+howtoplay.item.iron_dagger.text=A weapon made out of Iron. | Command: /give @s red_flower 1 77	#
+
+howtoplay.item.iron_hammer=Iron Hammer	#
+howtoplay.item.iron_hammer.text=A weapon made out of Iron. | Command: /give @s red_flower 1 137	#
+
+howtoplay.item.iron_horseshoe=Iron Horseshoe	#
+howtoplay.item.iron_horseshoe.text=Your pet will be faster if you put the Iron Horseshoe in the corresponding slot. | Command: /give @s red_flower 1 206	#
+
+##J 
+howtoplay.no_item.J=#AstroExp currently has no items with §lJ	#
+
+##K 
+howtoplay.no_item.K=#AstroExp currently has no items with §lK	#
+
+##L 
+howtoplay.item.leather_horseshoe=Leather Horseshoe	#
+howtoplay.item.leather_horseshoe.text=Your pet will be faster if you put the Leather Horseshoe in the corresponding slot. | Command: /give @s red_flower 1 205	#
+
+howtoplay.item.light_shield=Light Shield	#
+howtoplay.item.light_shield.text=You are immune to knockback while holding the Light Shield. | Command: /give @s red_flower 1 29	#
+
+##M 
+howtoplay.item.magic_potion=Magic Potion	#
+howtoplay.item.magic_potion.text=The Magic Potion is a drop of the Witch. You can use this potion to craft an Amulet of Magic. | Command: /give @s red_flower 1 191	#
+
+howtoplay.item.magic_star_potion=Magic Star Potion	#
+howtoplay.item.magic_star_potion.text=The Magic Star Potion is crafted with a Magic Potion and a Star Potion. It is used for more advanced items. | Command: /give @s red_flower 1 222	#
+
+##N 
+howtoplay.no_item.N=#AstroExp currently has no items with §lN	#
+
+##O 
+howtoplay.item.ocelot_fell=Ocelot Coat	#
+howtoplay.item.ocelot_fell.text=Dropped by Ocelots. | Command: /give @s yellow_flower 1 17	#
+
+howtoplay.item.orange_firework=Orange Firework	#
+howtoplay.item.orange_firework.text=Used for crafting the Elytra Starter. | Command: /give @s yellow_flower 1 189	#
+
+howtoplay.item.ordinary_jewel=Ordinary Jewel	#
+howtoplay.item.ordinary_jewel.text=A jewel made out of Ordinary Jewel Shards. | Command: /give @s red_flower 1 47	#
+
+howtoplay.item.ordinary_jewel_battleaxe=Ordinary Jewel Battleaxe	#
+howtoplay.item.ordinary_jewel_battleaxe.text=A weapon made out of Ordinary Jewel. | Command: /give @s red_flower 1 110	#
+
+howtoplay.item.ordinary_jewel_dagger=Ordinary Jewel Dagger	#
+howtoplay.item.ordinary_jewel_dagger.text=A weapon made out of Ordinary Jewel. | Command: /give @s red_flower 1 89	#
+
+howtoplay.item.ordinary_jewel_hammer=Ordinary Jewel Hammer	#
+howtoplay.item.ordinary_jewel_hammer.text=A weapon made out of Ordinary Jewel. | Command: /give @s red_flower 1 141	#
+
+howtoplay.item.ordinary_jewel_shard=Ordinary Jewel Shard	#
+howtoplay.item.ordinary_jewel_shard.text=Can be traded with a villager to gain Ordinary Jewel. | Command: /give @s red_flower 1 157	#
+
+howtoplay.item.ordinary_jewel_sword=Ordinary Jewel Sword	#
+howtoplay.item.ordinary_jewel_sword.text=A weapon made out of Ordinary Jewel. | Command: /give @s red_flower 1 58	#
+
+##P 
+howtoplay.item.polar_bear_fell=Polar Bear Coat	#
+howtoplay.item.polar_bear_fell.text=Dropped by Polar Bears. | Command: /give @s yellow_flower 1 16	#
+
+howtoplay.item.prismarine_battleaxe=Prismarine Battleaxe	#
+howtoplay.item.prismarine_battleaxe.text=A weapon made out of Prismarine. | Command: /give @s red_flower 1 122	#
+
+howtoplay.item.prismarine_dagger=Prismarine Dagger	#
+howtoplay.item.prismarine_dagger.text=A weapon made out of Prismarine. | Command: /give @s red_flower 1 93	#
+
+howtoplay.item.prismarine_hammer=Prismarine Hammer	#
+howtoplay.item.prismarine_hammer.text=A weapon made out of Prismarine. | Command: /give @s red_flower 1 127	#
+
+howtoplay.item.prismarine_sword=Prismarine Sword	#
+howtoplay.item.prismarine_sword.text=A weapon made out of Prismarine. | Command: /give @s red_flower 1 59	#
+
+howtoplay.item.protect_aura=Protect Aura	#
+howtoplay.item.protect_aura.text=You can use the Protect Aura to protect Villagers from damage and being transformed to Zombie Villagers. | Command: /give @s red_flower 1 250	#
+
+##Q
+howtoplay.no_item.Q=#AstroExp currently has no items with §lQ	#
+
+##R
+howtoplay.item.red_feather=Red Feather	#
+howtoplay.item.red_feather.text=This feather is a drop of the red Parrot. Can be used for villager trading (golden feather & arrows). | Command: /give @s red_flower 1 176	#
+
+howtoplay.item.red_star_flower=Red Star Flower	#
+howtoplay.item.red_star_flower.text=A very basic but important ingredient for various items. | Command: /give @s red_flower 1 0 | §lCan be found in the creative inventory!	#
+
+howtoplay.item.red_wing=Red Wing	#
+howtoplay.item.red_wing.text=Dropped by the Vex and can be used to craft an Umbrella. | Command: /give @s red_flower 1 186	#
+
+howtoplay.item.ruby=Ruby	#
+howtoplay.item.ruby.text=A jewel made out of Ruby Shards. | Command: /give @s red_flower 1 46	#
+
+howtoplay.item.ruby_battleaxe=Ruby Battleaxe	#
+howtoplay.item.ruby_battleaxe.text=A weapon made out of Ruby. | Command: /give @s red_flower 1 121	#
+
+howtoplay.item.ruby_dagger=Ruby Dagger	#
+howtoplay.item.ruby_dagger.text=A weapon made out of Ruby. | Command: /give @s red_flower 1 92	#
+
+howtoplay.item.ruby_hammer=Ruby Hammer	#
+howtoplay.item.ruby_hammer.text=A weapon made out of Ruby. | Command: /give @s red_flower 1 144	#
+
+howtoplay.item.ruby_shard=Ruby Shard	#
+howtoplay.item.ruby_shard.text=Material used for crafting the Ruby jewel. | Command: /give @s red_flower 1 156	#
+
+howtoplay.item.ruby_sword=Ruby Sword	#
+howtoplay.item.ruby_sword.text=A weapon made out of Ruby. | Command: /give @s red_flower 1 46	#
+
+##S 
+howtoplay.item.sapphire=Sapphire	#
+howtoplay.item.sapphire.text=A jewel made out of Sapphire Shards. | Command: /give @s red_flower 1 48	#
+
+howtoplay.item.sapphire_battleaxe=Sapphire Battleaxe	#
+howtoplay.item.sapphire_battleaxe.text=A weapon made out of Sapphire. | Command: /give @s red_flower 1 109	#
+
+howtoplay.item.sapphire_dagger=Sapphire Dagger	#
+howtoplay.item.sapphire_dagger.text=A weapon made out of Sapphire. | Command: /give @s red_flower 1 80	#
+
+howtoplay.item.sapphire_hammer=Sapphire Hammer	#
+howtoplay.item.sapphire_hammer.text=A weapon made out of Sapphire. | Command: /give @s red_flower 1 140	#
+
+howtoplay.item.sapphire_shard=Sapphire Shard	#
+howtoplay.item.sapphire_shard.text=Material used for crafting the Sapphire jewel. | Command: /give @s red_flower 1 158	#
+
+howtoplay.item.sapphire_sword=Sapphire Sword	#
+howtoplay.item.sapphire_sword.text=A weapon made out of Sapphire. | Command: /give @s red_flower 1 61	#
+
+howtoplay.item.shackles=Shackles	#
+howtoplay.item.shackles.text=An item which can be used to turn a Villager into a Weapon Smith. | Command: /give @s red_flower 1 201	#
+
+howtoplay.item.shield=Shield	#
+howtoplay.item.shield.text=Hold the shield to become immune to attacks of your enemies. | Command: /give @s yellow_flower 1 8	#
+
+howtoplay.item.silver_horseshoe=Silver Horseshoe	#
+howtoplay.item.silver_horseshoe.text=Your pet will be faster if you put the Silver Horseshoe in the corresponding slot. | Command: /give @s red_flower 1 204	#
+
+howtoplay.item.silver_ingot=Silver Ingot	#
+howtoplay.item.silver_ingot.text=Silver is a rare material used to craft powerful tools. | Command: /give @s red_flower 1 202	#
+
+howtoplay.item.silver_nugget=Silver Nugget	#
+howtoplay.item.silver_nugget.text=You can use nine Silver Nuggets to craft one Silver Ingot. | Command: /give @s red_flower 1 203	#
+
+howtoplay.item.skeleton_wand=Skeleton Wand	#
+howtoplay.item.skeleton_wand.text=You cannot be seen by skeletons while holding this wand. | Command: /give @s red_flower 1 217	#
+
+howtoplay.item.slime_powder=Slime Powder	#
+howtoplay.item.slime_powder.text=Used to craft Slimeballs and Glue. | Command: /give @s red_flower 1 234	#
+
+howtoplay.item.speed_pigment=Speed Pigments	#
+howtoplay.item.speed_pigment.text=Crafted with a Fiery Potion and Corrupted Flesh. Used for boosting the speed of a star sword. | Command: /give @s red_flower 1 32	#
+
+howtoplay.item.star_aura=Star Aura	#
+howtoplay.item.star_aura.text=WIP | Command: /give @s red_flower 1 249	#
+
+howtoplay.item.star_battleaxe=Star Battleaxe	#
+howtoplay.item.star_battleaxe.text=A weapon made out of Fallen Stars. | Command: /give @s red_flower 1 124	#
+
+howtoplay.item.star_dagger=Star Dagger	#
+howtoplay.item.star_dagger.text=A weapon made out of Fallen Stars. | Command: /give @s red_flower 1 125	#
+
+howtoplay.item.star_damage_sword=Star Damage Sword	#
+howtoplay.item.star_damage_sword.text=A weapon made out of Fallen Stars and boosted with Damage Pigments. | Command: /give @s red_flower 1 13	#
+
+howtoplay.item.star_flower=Star Flower	#
+howtoplay.item.star_flower.text=A very basic but important ingredient for various items. | Command: /give @s yellow_flower 1 0 | §lCan be found in the creative inventory!	#
+
+howtoplay.item.star_hammer=Star Hammer	#
+howtoplay.item.star_hammer.text=A weapon made out of Fallen Stars. | Command: /give @s red_flower 1 14	#
+
+howtoplay.item.star_health_sword=Star Health Sword	#
+howtoplay.item.star_health_sword.text=A weapon made out of Fallen Stars and boosted with Health Pigments. | Command: /give @s red_flower 1 12	#
+
+howtoplay.item.star_infused_enderman_essence=Star Infused Enderman Essence	#
+howtoplay.item.star_infused_enderman_essence.text=Used to craft a Potion of Blessing. | Command: /give @s red_flower 1 252	#
+
+howtoplay.item.star_ingot=Fallen Star Ingot	#
+howtoplay.item.star_ingot.text=An ingot made out of Fallen Stars. | Command: /give @s red_flower 1 224	#
+
+howtoplay.item.star_jewel=Fallen Star Jewel	#
+howtoplay.item.star_jewel.text=An jewel made out of Fallen Stars. | Command: /give @s red_flower 1 223	#
+
+howtoplay.item.star_pigment=Fallen Star Pigments	#
+howtoplay.item.star_pigment.text=Star Pigments can be used for villager trading. | Command: /give @s red_flower 1 233	#
+
+howtoplay.item.star_potion=Star Potion	#
+howtoplay.item.star_potion.text=Dropped by Galactic Zombies and is used for creating an Empty Extract Bottle. | Command: /give @s yellow_flower 1 11	#
+
+howtoplay.item.star_speed_sword=Star Speed Sword	#
+howtoplay.item.star_speed_sword.text=A weapon made out of Fallen Stars and boosted with Speed Pigments. | Command: /give @s red_flower 1 11	#
+
+howtoplay.item.star_sword=Star Sword	#
+howtoplay.item.star_sword.text=A weapon made out of Fallen Stars. | Command: /give @s yellow_flower 1 3	#
+
+howtoplay.item.steel_battleaxe=Steel Battleaxe	#
+howtoplay.item.steel_battleaxe.text=A weapon made out of Steel. | Command: /give @s red_flower 1 123	#
+
+howtoplay.item.steel_dagger=Steel Dagger	#
+howtoplay.item.steel_dagger.text=A weapon made out of Steel. | Command: /give @s red_flower 1 94	#
+
+howtoplay.item.steel_hammer=Steel Hammer	#
+howtoplay.item.steel_hammer.text=A weapon made out of Steel. | Command: /give @s red_flower 1 42	#
+
+howtoplay.item.steel_ingot=Steel Ingot	#
+howtoplay.item.steel_ingot.text=Material used to craft strong weapons. | Command: /give @s red_flower 1 41	#
+
+howtoplay.item.steel_nugget=Steel Nugget	#
+howtoplay.item.steel_nugget.text=You can use nine Steel Nuggets to craft one Steel Ingot. | Command: /give @s red_flower 1 153	#
+
+howtoplay.item.steel_sword=Steel Sword	#
+howtoplay.item.steel_sword.text=A weapon made out of Steel. | Command: /give @s red_flower 1 44	#
+
+howtoplay.item.stone_battleaxe=Stone Battleaxe	#
+howtoplay.item.stone_battleaxe.text=A weapon made out of Stone. | Command: /give @s red_flower 1 105	#
+
+howtoplay.item.stone_dagger=Stone Dagger	#
+howtoplay.item.stone_dagger.text=A weapon made out of Stone. | Command: /give @s red_flower 1 76	#
+
+howtoplay.item.stone_hammer=Stone Hammer	#
+howtoplay.item.stone_hammer.text=A weapon made out of Stone. | Command: /give @s red_flower 1 128	#
+
+##T 
+howtoplay.no_item.T=#AstroExp currently has no items with §lT	#
+
+##U 
+howtoplay.item.umbrella=Umbrella	#
+howtoplay.item.umbrella.text=This item lowers gravity while you hold it. It does not make you immune to fall damage! | Command: /give @s yellow_flower 1 5	#
+
+##V 
+howtoplay.item.vampire_extract=Vampire Extract	#
+howtoplay.item.vampire_extract.text=Gain this item by clicking on a Bat while holding an Empty Extract Bottle. Use this item in combination with a Vampire Tooth to craft a Vampire Potion. | Command: /give @s red_flower 1 9	#
+
+howtoplay.item.vampire_potion=Vampire Potion	#
+howtoplay.item.vampire_potion.text=Hold this item at night to become a Vampire. | Command: /give @s yellow_flower 1 12	#
+
+howtoplay.item.vampire_tooth=Vampire Tooth	#
+howtoplay.item.vampire_tooth.text=Dropped by Bats. Use this item in combination with a Vampire Extract to craft a Vampire Potion. | Command: /give @s yellow_flower 1 10	#
+
+howtoplay.item.villager_soul=Villager Soul	#
+howtoplay.item.villager_soul.text=Dropped by Zombies. Collect them because some villagers trade them against Villager Spawneggs. | Command: /give @s red_flower 1 160	#
+
+##W 
+howtoplay.item.wolf_fell=Wolf Coat	#
+howtoplay.item.wolf_fell.text=Dropped by Wolves. Use this item in combination with a Wolf Extract to craft a Werewolf Potion. | Command: /give @s yellow_flower 1 14	#
+
+howtoplay.item.werewolf_extract=Werewolf Extract	#
+howtoplay.item.werewolf_extract.text=Gain this item by clicking on a Wolf while holding an Empty Extract Bottle. Use this item in combination with a Wolf Coat to craft a Werewolf Potion. | Command: /give @s red_flower 1 10	#
+
+howtoplay.item.werewolf_potion=Werewolf Potion	#
+howtoplay.item.werewolf_potion.text=Hold this item at night to become a Werewolf. | Command: /give @s yellow_flower 1 13	#
+
+howtoplay.item.wither_bone=Wither Bone	#
+howtoplay.item.wither_bone.text=Dropped by Wither Skeletons and can be used to craft Wither Bone Meal. | Command: /give @s red_flower 1 236	#
+
+howtoplay.item.wither_bone_meal=Wither Bone Meal	#
+howtoplay.item.wither_bone_meal.text=Crafted with Wither Bone Meal. Currently has no use. | Command: /give @s red_flower 1 237	#
+
+howtoplay.item.wither_bone_sword=Wither Bone Sword	#
+howtoplay.item.wither_bone_sword.text=A weapon made out of the deadly Wither Bones. | Command: /give @s red_flower 1 255	#
+
+howtoplay.item.wood_battleaxe=Wooden Battleaxe	#
+howtoplay.item.wood_battleaxe.text=A weapon made out of Wood. | Command: /give @s red_flower 1 95	#
+
+howtoplay.item.wood_dagger=Wooden Dagger	#
+howtoplay.item.wood_dagger.text=A weapon made out of Wood. | Command: /give @s red_flower 1 74	#
+
+howtoplay.item.wood_hammer=Wooden Hammer	#
+howtoplay.item.wood_hammer.text=A weapon made out of Wood. | Command: /give @s red_flower 1 126	#
+
+##X 
+howtoplay.no_item.X=#AstroExp currently has no items with §lX	#
+
+##Y
+howtoplay.item.yellow_feather=Yellow Feather	#
+howtoplay.item.yellow_feather.text=This feather is a drop of the yellow Parrot. Can be used for villager trading (golden feather & arrows). | Command: /give @s red_flower 1 173	#
+
+##Z
+howtoplay.item.zombie_wand=Zombie Wand	#
+howtoplay.item.zombie_wand.text=You cannot be seen by Zombies while holding this wand. | Command: /give @s red_flower 1 219	#
