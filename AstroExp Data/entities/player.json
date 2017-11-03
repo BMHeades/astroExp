@@ -180,7 +180,7 @@
         }
       },
 
-      //Tier 4: Dark Jewel Swords
+      //Tier 4: Dark Jewel Swords, Dragon Tail
       "astroExp:tier4_sword": {
         "minecraft:attack": {
           "damage": 9
@@ -265,7 +265,7 @@
         }
       },
 
-      //Tier 5: Star Daggers
+      //Tier 5: Star Daggers, Guardian Spike
       "astroExp:tier5_dagger": {
         "minecraft:attack": {
           "damage": 8
@@ -1055,7 +1055,8 @@
           "on_environment": {
             "filters": { 
               "any_of": [ 
-                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:63"} //Dark Jewel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:63"}, //Dark Jewel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:239"} //Dragon Tail
               ]
             },
             "event": "astroExp:holds_tier4_sword"
@@ -1132,7 +1133,8 @@
           "on_environment": {
             "filters": { 
               "any_of": [ 
-                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:125"} //Star
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:125"}, //Star
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:251"} //Guardian Spike
               ]
             },
             "event": "astroExp:holds_tier5_dagger"
