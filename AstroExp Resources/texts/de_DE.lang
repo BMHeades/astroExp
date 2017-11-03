@@ -6,6 +6,7 @@ tile.red_flower.poppy.name=Astronomisches Item	#
 
 ## Interaction names
 action.interact.summon_galactic_zombie=Stärke Zombie	#
+action.interact.glue.villager=Dorfbewohner festkleben	#
 
 
 ## Entity names

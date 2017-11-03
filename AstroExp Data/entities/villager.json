@@ -344,6 +344,26 @@
         "inventory_size": 8,
         "private": true
       },
+
+      //INTERACT
+      "minecraft:interact": [
+        {
+            "on_interact": {
+              "filters": { 
+                "all_of": [
+                  { "test": "is_family", "subject" : "other", "value" :  "player"},
+                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "red_flower:235"}
+                ] 
+              },
+              "event": "astroExp:removeMovement"
+            },
+            "use_item": true,
+            "play_sounds": "milk",
+            "interact_text": "action.interact.glue",
+        }
+      ],
+
+      //DAMAGE
       "minecraft:damage_sensor": [
         {
           "on_damage": {
@@ -776,6 +796,16 @@
       "minecraft:become_cleric": {
         "add": { "component_groups": [ "cleric", "adult", "behavior_non_peasant" ] },
         "remove": { "component_groups": [ "baby" ] }
+      },
+
+      "astroExp:removeMovement": {
+        "add": { "component_groups": [ "no_movement" ] },
+        "remove": { "component_groups": [ "standard_movement" ] }
+      },
+
+      "astroExp:addMovement": {
+        "add": { "component_groups": [ "standard_movement" ] },
+        "remove": { "component_groups": [ "no_movement" ] }
       }
     }
   }
