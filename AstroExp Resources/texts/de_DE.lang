@@ -101,8 +101,8 @@ howtoplay.story.text.5=	#
 
 
 ##	Creator
-howtoplay.creator=Creators	#
-howtoplay.creator.title=Creators	#
+howtoplay.creator=Ersteller	#
+howtoplay.creator.title=Ersteller	#
 
 howtoplay.creator.header.1=Lead Developer - §lsolvedDev	#
 howtoplay.creator.text.1=solvedDev is founder and lead developer of the #AstroExp addon. He developed the first technique to add new items to Minecraft Bedrock. When he doesn't work on the Astronomic Expansion Adddon, he spends his time writing other addons, updating his addons or with "regular" programming. solvedDev is part of the PixelVerseTeam.	#
@@ -110,7 +110,7 @@ howtoplay.creator.text.1=solvedDev is founder and lead developer of the #AstroEx
 howtoplay.creator.header.2=Developer - §lMyoHtet (@bmHeades)	#
 howtoplay.creator.text.2=MyoHtet joined the development in November to speed up the development cycle of #AstroExp. The first update he worked on was v1.2. 	#
 
-howtoplay.creator.header.3=Special Thanks To . . .	#
+howtoplay.creator.header.3=Danksagung	#
 howtoplay.creator.text.3=MCPEDL.com - §ofor the extraordinary work to present community created content and the kind help & support!	#
 howtoplay.creator.text.4=Translators - §owho translated this addon to other languages! Chinese: @lyca499, German: @solvedDev	#
 howtoplay.creator.text.5=My Community - §owho supported me during the long phase of developing #AstroExp v1.2!	#
@@ -119,32 +119,28 @@ howtoplay.creator.text.6=Youtubers - §oFor all the videos about #AstroExp! They
 
 
 ##	Getting Started
-howtoplay.gettingStarted=Getting Started...	#
-howtoplay.gettingStarted.title=Getting Started...	#
+howtoplay.gettingStarted=Der Anfang...	#
+howtoplay.gettingStarted.title=Der Anfang...	#
 
 
 
 ##	Villager Trading
-howtoplay.villagerTrading=Villager Trading	#
-howtoplay.villagerTrading.title=Villager Trading	#
+howtoplay.villagerTrading=Dorfbewohner Handel	#
+howtoplay.villagerTrading.title=Dorfbewohner Handel	#
 
 
 
 ##	Item Section
-howtoplay.generalItem=General	#
-howtoplay.generalItem.title=General Information about Items	#
+howtoplay.generalItem=Allgemeines	#
+howtoplay.generalItem.title=Allgemeine Informationen über Gegenstände	#
 howtoplay.generalItem.text.1=§oThe Astronomic Expansion Addon adds items. Hundreds of new items. This is a kind of disclaimer so that you know what is possible and how you can use these new items.	#
 howtoplay.generalItem.text.2=First of all, we cannot add items to Minecraft yet. What this addon does is using a trick in order to add blocks which look like items in your inventory. Basically every type of item in this addon is secretely a flower. This has a couple of downsides: You can place the items down. Please just don't do that as this might result in loosing the item. In addition, I am not able to name the items. That's the reason why they are all called "Astronomic Item". In case you are wondering which item you just got, this in-game guide will help you. The last downside is that I cannot add vanilla Minecraft mechanics like drinking or eating something. If you got a potion, the way to use it is to hold it. If nothing happens, this potion is probably meant for crafting only or you need to meet another criteria. Take a look at the item guide in this case.	# 
 howtoplay.generalItem.text.3=And one last note: I am not incredible bad at spelling the alphabet... xD You still might find an unordered item encyclopedia because you are using #AstroExp in another language. This guide was designed for §oEnglish §rand this means that it won't fit for every other language.
 
-howtoplay.A_F=§lA §rto §lF	#
-howtoplay.A_F.title=Items from §lA §rto §lF	#
-howtoplay.G_M=§lG §rto §lM	#
-howtoplay.G_M.title=Items from §lG §rto §lM	#
-howtoplay.N_T=§lN §rto §lT	#
-howtoplay.N_T.title=Items from §lN §rto §lT	#
-howtoplay.U_Z=§lU §rto §lZ	#
-howtoplay.U_Z.title=Items from §lU §rto §lZ 	#
+howtoplay.A_F=§lA §rbis §lF	#
+howtoplay.G_M=§lG §rbis §lM	#
+howtoplay.N_T=§lN §rbis §lT	#
+howtoplay.U_Z=§lU §rbis §lZ	#
 
 howtoplay.A=A	#
 howtoplay.B=B	#
@@ -173,32 +169,32 @@ howtoplay.X=X	#
 howtoplay.Y=Y	#
 howtoplay.Z=Z	#
 
-howtoplay.A.title=Items with §lA	#
-howtoplay.B.title=Items with §lB	#
-howtoplay.C.title=Items with §lC	#
-howtoplay.D.title=Items with §lD	#
-howtoplay.E.title=Items with §lE	#
-howtoplay.F.title=Items with §lF	#
-howtoplay.G.title=Items with §lG	#
-howtoplay.H.title=Items with §lH	#
-howtoplay.I.title=Items with §lI	#
-howtoplay.J.title=Items with §lJ	#
-howtoplay.K.title=Items with §lK	#
-howtoplay.L.title=Items with §lL	#
-howtoplay.M.title=Items with §lM	#
-howtoplay.N.title=Items with §lN	#
-howtoplay.O.title=Items with §lO	#
-howtoplay.P.title=Items with §lP	#
-howtoplay.Q.title=Items with §lQ	#
-howtoplay.R.title=Items with §lR	#
-howtoplay.S.title=Items with §lS	#
-howtoplay.T.title=Items with §lT	#
-howtoplay.U.title=Items with §lU	#
-howtoplay.V.title=Items with §lV	#
-howtoplay.W.title=Items with §lW	#
-howtoplay.X.title=Items with §lX	#
-howtoplay.Y.title=Items with §lY	#
-howtoplay.Z.title=Items with §lZ	#
+howtoplay.A.title=Gegenstände mit §lA	#
+howtoplay.B.title=Gegenstände mit §lB	#
+howtoplay.C.title=Gegenstände mit §lC	#
+howtoplay.D.title=Gegenstände mit §lD	#
+howtoplay.E.title=Gegenstände mit §lE	#
+howtoplay.F.title=Gegenstände mit §lF	#
+howtoplay.G.title=Gegenstände mit §lG	#
+howtoplay.H.title=Gegenstände mit §lH	#
+howtoplay.I.title=Gegenstände mit §lI	#
+howtoplay.J.title=Gegenstände mit §lJ	#
+howtoplay.K.title=Gegenstände mit §lK	#
+howtoplay.L.title=Gegenstände mit §lL	#
+howtoplay.M.title=Gegenstände mit §lM	#
+howtoplay.N.title=Gegenstände mit §lN	#
+howtoplay.O.title=Gegenstände mit §lO	#
+howtoplay.P.title=Gegenstände mit §lP	#
+howtoplay.Q.title=Gegenstände mit §lQ	#
+howtoplay.R.title=Gegenstände mit §lR	#
+howtoplay.S.title=Gegenstände mit §lS	#
+howtoplay.T.title=Gegenstände mit §lT	#
+howtoplay.U.title=Gegenstände mit §lU	#
+howtoplay.V.title=Gegenstände mit §lV	#
+howtoplay.W.title=Gegenstände mit §lW	#
+howtoplay.X.title=Gegenstände mit §lX	#
+howtoplay.Y.title=Gegenstände mit §lY	#
+howtoplay.Z.title=Gegenstände mit §lZ	#
 
 
 
