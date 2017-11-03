@@ -1,0 +1,588 @@
+{
+  "tiers": [
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:57",
+            "quantity": 1
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:79" //EMERALD
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:48",
+            "quantity": 1
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:80" //SAPPHIRE
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:47",
+            "quantity": 1
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:89" //AMETHYST
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:45",
+            "quantity": 1
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:90" //ORDINARY JEWEL
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:62",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:91" //DARK JEWEL
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:46",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:92" //RUBY
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:prismarine_shard",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:93" //PRISMARINE
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:57",
+            "quantity": 2
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:15" //EMERALD
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:48",
+            "quantity": 2
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:61" //SAPPHIRE
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:47",
+            "quantity": 2
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:58" //AMETHYST
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 1
+          },
+          {
+            "item": "minecraft:red_flower:45",
+            "quantity": 2
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:64" //ORDINARY JEWEL
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:62",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:63" //DARK JEWEL
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:46",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:60" //RUBY
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:prismarine_shard",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:59" //PRISMARINE
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 2
+          },
+          {
+            "item": "minecraft:red_flower:57",
+            "quantity": 5
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:108" //EMERALD
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 2
+          },
+          {
+            "item": "minecraft:red_flower:48",
+            "quantity": 5
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:109" //SAPPHIRE
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 2
+          },
+          {
+            "item": "minecraft:red_flower:47",
+            "quantity": 5
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:110" //AMETHYST
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 2
+          },
+          {
+            "item": "minecraft:red_flower:45",
+            "quantity": 5
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:111" //ORDINARY JEWEL
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:red_flower:62",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:112" //DARK JEWEL
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:red_flower:46",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:121" //RUBY
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:prismarine_shard",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:122" //PRISMARINE
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity":2
+          },
+          {
+            "item": "minecraft:red_flower:57",
+            "quantity": 4
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:139" //EMERALD
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 2
+          },
+          {
+            "item": "minecraft:red_flower:48",
+            "quantity": 4
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:140" //SAPPHIRE
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 2
+          },
+          {
+            "item": "minecraft:red_flower:47",
+            "quantity": 4
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:141" //AMETHYST
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:stick",
+            "quantity": 2
+          },
+          {
+            "item": "minecraft:red_flower:45",
+            "quantity": 4
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:red_flower:142" //ORDINARY JEWEL
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:red_flower:62",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:143" //DARK JEWEL
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:red_flower:46",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:144" //RUBY
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:prismarine_shard",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:127" //PRISMARINE
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:diamond",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:75"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:diamond",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:96"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:diamond",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:43" 
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:diamond",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_sword"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

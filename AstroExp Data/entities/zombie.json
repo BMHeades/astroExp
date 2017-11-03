@@ -1,0 +1,293 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      //Galactic Zombie
+      "astroExp:galactic_zombie": {
+        "minecraft:scale": {
+          "value": 3
+        },
+        "minecraft:movement": {
+          "value": 0.18
+        },
+        "minecraft:health": {
+          "value": 100,
+          "max": 100,
+          "min": 0
+        },
+        "minecraft:attack": {
+          "damage": 10
+        },
+        "minecraft:is_shaking":{},
+        "minecraft:loot": {
+          "table": "loot_tables/astroExp/galactic_zombie.json"
+        }
+      },
+      //This component group heals the Galactic Zombie
+      "astroExp:heal_galactic_zombie": {
+        "minecraft:health": {
+          "value": 100,
+          "max": 100,
+          "min": 100
+        },
+        "minecraft:timer": {
+          "time": 0.01,
+          "looping": false,
+          "time_down_event": {
+            "event": "astroExp:on_galactic_summoned",
+            "target": "self"
+          }
+        }
+      },
+
+      //Standard Minecraft Groups
+      "minecraft:zombie_baby": {
+        "minecraft:is_baby": { },
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.35
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/astroExp/baby_zombie.json"
+        }
+      },
+
+      "minecraft:zombie_adult": {
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.23
+        },
+        "minecraft:burns_in_daylight": {
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [ 0.0, 1.1, -0.35 ],
+            "lock_rider_rotation": 0
+          }
+        },
+        "minecraft:behavior.mount_pathing": {
+          "priority": 2,
+          "speed_multiplier": 1.25,
+          "target_dist": 0.0,
+          "track_target": true
+        },
+        "minecraft:interact": [
+          {
+            "cooldown": 2.5,
+            "use_item": true,
+            "play_sounds": "shear",
+            "interact_text": "action.interact.summon_galactic_zombie",
+            "on_interact": {
+              "filters": {
+                  "all_of": [
+              	    { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "yellow_flower:1"},
+                    { "test" :  "is_family", "subject" : "other", "value" :  "player"}
+                  ]
+                },
+              "event": "astroExp:on_heal_galactic_zombie",
+              "target": "self"
+            }
+          }
+        ],
+        "minecraft:loot": {
+          "table": "loot_tables/entities/zombie.json"
+        }
+      },
+
+      "minecraft:zombie_jockey": {
+        "minecraft:behavior.find_mount": {
+          "priority": 1,
+          "within_radius": 16
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:zombie"
+      },
+      "minecraft:nameable": {
+      },
+
+      // Zombie Components
+      "minecraft:type_family": {
+        "family": [ "zombie", "undead", "monster" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true,
+        "can_pass_doors": true,
+        "can_open_doors": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/zombie.json"
+      },
+
+      // Zombie Behaviors
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.break_door": {
+        "priority": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 25,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snowgolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "irongolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "villager"
+                }
+              ]
+            },
+            "max_dist": 35
+          }
+        ],
+        "must_see": true
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "astroExp:on_heal_galactic_zombie": {
+        "remove": {
+          "component_groups": [
+            "minecraft:zombie_adult",
+            "astroExp:galactic_zombie"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "astroExp:heal_galactic_zombie"
+          ]
+        }
+      },
+      "astroExp:on_galactic_summoned": {
+        "remove": {
+          "component_groups": [
+            "minecraft:zombie_adult",
+            "astroExp:heal_galactic_zombie"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "astroExp:galactic_zombie"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 380,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:zombie_adult"
+              ]
+            }
+          },
+          {
+            "weight": 17,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:zombie_baby"
+              ]
+
+            }
+          },
+          {
+            "weight": 3,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:zombie_baby",
+                "minecraft:zombie_jockey"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

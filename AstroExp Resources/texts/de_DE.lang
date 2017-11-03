@@ -1,0 +1,11 @@
+﻿## Block names
+tile.yellow_flower..name=Astronomisches Item	#
+tile.yellow_flower.dandelion.name=Astronomisches Item	#
+tile.red_flower.poppy.name=Astronomisches Item	#
+item.spawn_egg.entity.shulker.name=Maschinen Block	#
+
+## Interaction names
+action.interact.summon_galactic_zombie=Stärke Zombie	#
+
+## Entity names
+entity.villager.astronomer=Astronom	#

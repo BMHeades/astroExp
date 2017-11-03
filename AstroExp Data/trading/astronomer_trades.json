@@ -1,0 +1,425 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:1"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:paper",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:gunpowder",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:189"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 7
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:1",
+              "quantity": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:2"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "item": "minecraft:diamond_sword"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:3"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:189"
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:red_flower:188",
+            "quantity": {
+               "min": 2,
+               "max": 8
+            }
+          },
+          {
+            "item": "minecraft:yellow_flower:2",
+            "quantity": {
+               "min": 3,
+               "max": 6
+            }
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:yellow_flower:5"
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:totem"
+          },
+          {
+            "item": "minecraft:yellow_flower:2",
+            "quantity": {
+               "min": 5,
+               "max": 9
+            }
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:yellow_flower:8"
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:32",
+              "quantity": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 9
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:6"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:28",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:7"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:191",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:170"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:192",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:169"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:190",
+              "quantity": {
+                "min": 3,
+                "max": 6
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:9"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:29"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:172",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:171"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:172",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:171"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:173",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:171"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:174",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:171"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:175",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:171"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:176",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            },
+            {
+              "item": "minecraft:yellow_flower:2",
+              "quantity": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:171"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

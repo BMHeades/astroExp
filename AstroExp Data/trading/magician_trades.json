@@ -1,0 +1,170 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:yellow_flower:11"
+            },
+            {
+              "item": "minecraft:glass_bottle"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:15"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:9"
+            },
+            {
+              "item": "minecraft:yellow_flower:10"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:12"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:10"
+            },
+            {
+              "item": "minecraft:yellow_flower:14"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:glass_bottle"
+            },
+            {
+              "item": "minecraft:red_flower:0"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:25"
+            },
+            {
+              "item": "minecraft:red_flower:28"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:32"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:26"
+            },
+            {
+              "item": "minecraft:red_flower:28"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:31"
+            }
+          ]
+        },
+        {
+          "wants": [
+           {
+              "item": "minecraft:red_flower:27"
+            },
+            {
+              "item": "minecraft:red_flower:28"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:yellow_flower:3"
+            },
+            {
+              "item": "minecraft:red_flower:32"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:11"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:yellow_flower:3"
+            },
+            {
+              "item": "minecraft:red_flower:31"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:12"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:yellow_flower:3"
+            },
+            {
+              "item": "minecraft:red_flower:30"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:13"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

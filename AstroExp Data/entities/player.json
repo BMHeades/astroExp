@@ -1,0 +1,2339 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+    "component_groups": {
+      //Minecraft standard components
+      "minecraft:standard_player": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20,
+          "min": 0
+        },
+        "minecraft:movement": {
+          "value": 0.1 
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:player.saturation": {
+          "value": 20
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:type_family": {
+          "family": [ "player" ]
+        },
+        "minecraft:fire_immune": false,
+        "minecraft:hurt_when_wet": { "value": false },
+        "minecraft:knockback_resistance": {
+          "value": 0.0
+        },
+        "minecraft:fall_damage": {
+          "value": 1.0
+        }
+      },
+
+      //Vampire Player
+      "astroExp:vampire": {
+        "minecraft:type_family": {
+          "family": [ "player", "vampire" ]
+        },
+        "minecraft:health": {
+          "value": 26,
+          "max": 26,
+          "min": 0
+        },
+        "minecraft:movement": {
+          "value": 0.14
+        },
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:player.saturation": {
+          "value": 30
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:fire_immune": true,
+        "minecraft:hurt_when_wet": { "value": true },
+        "minecraft:knockback_resistance": {
+          "value": 0.0
+        },
+        "minecraft:fall_damage": {
+          "value": 1.0
+        }
+      },
+
+      //Werewolf Player
+      //DAY
+      "astroExp:werewolf_day": {
+        "minecraft:type_family": {
+          "family": [ "player", "werewolf" ]
+        },
+        "minecraft:health": {
+          "value": 16,
+          "max": 16,
+          "min": 0
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:player.saturation": {
+          "value": 20
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:fire_immune": false,
+        "minecraft:hurt_when_wet": { "value": false },
+        "minecraft:knockback_resistance": {
+          "value": 0.0
+        },
+        "minecraft:fall_damage": {
+          "value": 1.0
+        }
+      },
+      //NIGHT
+      "astroExp:werewolf_night": {
+        "minecraft:type_family": {
+          "family": [ "player", "werewolf" ]
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30,
+          "min": 0
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:attack": {
+          "damage": 5
+        },
+        "minecraft:player.saturation": {
+          "value": 40
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:fire_immune": false,
+        "minecraft:hurt_when_wet": { "value": false },
+        "minecraft:knockback_resistance": {
+          "value": 0.0
+        },
+        "minecraft:fall_damage": {
+          "value": 1.0
+        }
+      },
+
+      //Speedy player - not in use
+      "astroExp:speedy_player": {
+        "minecraft:movement": {
+          "value": 0.7 
+        },
+        "minecraft:player.saturation": {
+          "value": 40
+        }
+      },
+
+      //Jetpack
+      "astroExp:jetpack_player": {
+        "minecraft:physics": {
+          "has_gravity": false
+        }
+      },
+
+      /*--------------------------------------------
+      ------          NEW WEAPONS         ---------
+      ---------------------------------------------*/
+
+      //      +++  SWORDS  +++
+      //Tier 1: Prismarine, Ordinary Jewel Swords
+      "astroExp:tier1_sword": {
+        "minecraft:attack": {
+          "damage": 5.5
+        }
+      },
+
+      //Tier 2: Emerald, Steel Swords
+      "astroExp:tier2_sword": {
+        "minecraft:attack": {
+          "damage": 6.75
+        }
+      },
+
+      //Tier 3: Ruby, Sapphire, Amethyst Swords
+      "astroExp:tier3_sword": {
+        "minecraft:attack": {
+          "damage": 8
+        },
+        "minecraft:movement": {
+          "value": 0.11
+        },
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        }
+      },
+
+      //Tier 4: Dark Jewel Swords
+      "astroExp:tier4_sword": {
+        "minecraft:attack": {
+          "damage": 9
+        },
+        "minecraft:movement": {
+          "value": 0.12
+        },
+        "minecraft:health": {
+          "value": 28,
+          "max": 28
+        }
+      },
+
+      //Tier 5: Star sword
+      "astroExp:tier5_sword": {
+        "minecraft:attack": {
+          "damage": 10
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //      +++  DAGGERS  +++
+      //Tier 1: Prismarine, Ordinary Jewel Daggers
+      "astroExp:tier1_daggers": {
+        "minecraft:attack": {
+          "damage": 3.5
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 28,
+          "max": 28
+        }
+      },
+
+      //Tier 2: Emerald, Steel Daggers
+      "astroExp:tier2_dagger": {
+        "minecraft:attack": {
+          "damage": 4.75
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        }
+      },
+
+      //Tier 3: Ruby, Sapphire, Amethyst Daggers
+      "astroExp:tier3_dagger": {
+        "minecraft:attack": {
+          "damage": 6
+        },
+        "minecraft:movement": {
+          "value": 0.14
+        },
+        "minecraft:health": {
+          "value": 28,
+          "max": 28
+        }
+      },
+
+      //Tier 4: Dark Jewel Daggers
+      "astroExp:tier4_dagger": {
+        "minecraft:attack": {
+          "damage": 7
+        },
+        "minecraft:movement": {
+          "value": 0.15
+        },
+        "minecraft:health": {
+          "value": 32,
+          "max": 32
+        }
+      },
+
+      //Tier 5: Star Daggers
+      "astroExp:tier5_dagger": {
+        "minecraft:attack": {
+          "damage": 8
+        },
+        "minecraft:movement": {
+          "value": 0.16
+        },
+        "minecraft:health": {
+          "value": 34,
+          "max": 34
+        }
+      },
+
+      //Tier WOOD dagger
+      "astroExp:tierWood_dagger": {
+        "minecraft:attack": {
+          "damage": 2
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        }
+      },
+
+      //Tier STONE dagger
+      "astroExp:tierStone_dagger": {
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        }
+      },
+
+      //Tier Iron dagger
+      "astroExp:tierIron_dagger": {
+        "minecraft:attack": {
+          "damage": 4
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        }
+      },
+
+      //Tier Diamond dagger
+      "astroExp:tierDiamond_dagger": {
+        "minecraft:attack": {
+          "damage": 5
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        }
+      },
+
+      //      +++  AXES  +++
+      //Tier 1: Prismarine, Ordinary Jewel Axes
+      "astroExp:tier1_axe": {
+        "minecraft:attack": {
+          "damage": 7
+        },
+        "minecraft:movement": {
+          "value": 0.07
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //Tier 2: Emerald, Steel Axes
+      "astroExp:tier2_axe": {
+        "minecraft:attack": {
+          "damage": 8.25
+        },
+        "minecraft:movement": {
+          "value": 0.07
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //Tier 3: Ruby, Sapphire, Amethyst Axes
+      "astroExp:tier3_axe": {
+        "minecraft:attack": {
+          "damage": 9.5
+        },
+        "minecraft:movement": {
+          "value": 0.08
+        },
+        "minecraft:health": {
+          "value": 34,
+          "max": 34
+        }
+      },
+
+      //Tier 4: Dark Jewel Axes
+      "astroExp:tier4_axe": {
+        "minecraft:attack": {
+          "damage": 10.5
+        },
+        "minecraft:movement": {
+          "value": 0.09
+        },
+        "minecraft:health": {
+          "value": 38,
+          "max": 38
+        }
+      },
+
+      //Tier 5: Star Axes
+      "astroExp:tier5_axe": {
+        "minecraft:attack": {
+          "damage": 11.5
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:health": {
+          "value": 40,
+          "max": 40
+        }
+      },
+
+      //Tier WOOD axe
+      "astroExp:tierWood_axe": {
+        "minecraft:attack": {
+          "damage": 5.5
+        },
+        "minecraft:movement": {
+          "value": 0.07
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //Tier STONE axe
+      "astroExp:tierStone_axe": {
+        "minecraft:attack": {
+          "damage": 6.5
+        },
+        "minecraft:movement": {
+          "value": 0.07
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //Tier Iron axe
+      "astroExp:tierIron_axe": {
+        "minecraft:attack": {
+          "damage": 7.5
+        },
+        "minecraft:movement": {
+          "value": 0.07
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //Tier Diamond axe
+      "astroExp:tierDiamond_axe": {
+        "minecraft:attack": {
+          "damage": 8.5
+        },
+        "minecraft:movement": {
+          "value": 0.07
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //      +++  HAMMERS  +++
+      //Tier 1: Prismarine, Ordinary Jewel Hammers
+      "astroExp:tier1_hammer": {
+        "minecraft:attack": {
+          "damage": 7
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+
+      //Tier 2: Emerald, Steel Hammers
+      "astroExp:tier2_hammer": {
+        "minecraft:attack": {
+          "damage": 8.25
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+
+      //Tier 3: Ruby, Sapphire, Amethyst Hammers
+      "astroExp:tier3_hammer": {
+        "minecraft:attack": {
+          "damage": 9.5
+        },
+        "minecraft:movement": {
+          "value": 0.14
+        },
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        }
+      },
+
+      //Tier 4: Dark Jewel Hammers
+      "astroExp:tier4_hammer": {
+        "minecraft:attack": {
+          "damage": 10.5
+        },
+        "minecraft:movement": {
+          "value": 0.15
+        },
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        }
+      },
+
+      //Tier 5: Star Hammers
+      "astroExp:tier5_hammer": {
+        "minecraft:attack": {
+          "damage": 11.5
+        },
+        "minecraft:movement": {
+          "value": 0.16
+        },
+        "minecraft:health": {
+          "value": 28,
+          "max": 28
+        }
+      },
+
+      //Tier WOOD hammer
+      "astroExp:tierWood_hammer": {
+        "minecraft:attack": {
+          "damage": 5.5
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+
+      //Tier STONE hammer
+      "astroExp:tierStone_hammer": {
+        "minecraft:attack": {
+          "damage": 6.5
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+
+      //Tier Iron hammer
+      "astroExp:tierIron_hammer": {
+        "minecraft:attack": {
+          "damage": 7.5
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+
+      //Tier Diamond hammer
+      "astroExp:tierDiamond_hammer": {
+        "minecraft:attack": {
+          "damage": 8.5
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+
+      //Star health sword
+      "astroExp:star_health_sword": {
+        "minecraft:attack": {
+          "damage": 10
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 40,
+          "max": 40
+        }
+      },
+
+      //Star damage sword
+      "astroExp:star_damage_sword": {
+        "minecraft:attack": {
+          "damage": 15
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+      //Star speed sword
+      "astroExp:star_speed_sword": {
+        "minecraft:attack": {
+          "damage": 10
+        },
+        "minecraft:movement": {
+          "value": 0.18
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+
+
+      /* ------------------------------------
+      -------Umbrella Component Groups-------
+      ---------------------------------------*/
+
+      //-------PLAYER-------
+      //Umbrella; phase 1: no gravity
+      "astroExp:umbrella_nG": {
+        "minecraft:timer": {
+          "time": 0.01,
+          "looping": false,
+          "time_down_event": {
+            "event": "player_gets_gravity",
+            "target": "self"
+          }
+        },
+        "minecraft:physics": {
+          "has_gravity": false
+        },
+        "minecraft:type_family": {
+          "family": [ "player", "holds_umbrella" ]
+        },
+        "minecraft:fall_damage": {
+          "value": 0.0
+        },
+        "minecraft:damage_sensor": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      },
+      //Umbrella; phase 2: gravity
+      "astroExp:umbrella_g": {
+        "minecraft:timer": {
+          "time": 0.01,
+          "looping": false,
+          "time_down_event": {
+            "filter": { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:5"},
+            "event": "player_looses_gravity",
+            "target": "self"
+          }
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:type_family": {
+          "family": [ "player", "holds_umbrella" ]
+        },
+        "minecraft:fall_damage": {
+          "value": 0.0
+        },
+        "minecraft:damage_sensor": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      },
+
+      //-------VAMPIRE-------
+      //Umbrella; phase 1: no gravity
+      "astroExp:umbrella_nG_vampire": {
+        "minecraft:timer": {
+          "time": 0.01,
+          "looping": false,
+          "time_down_event": {
+            "event": "vampire_gets_gravity",
+            "target": "self"
+          }
+        },
+        "minecraft:physics": {
+          "has_gravity": false
+        },
+        "minecraft:type_family": {
+          "family": [ "player", "holds_umbrella", "vampire" ]
+        },
+        "minecraft:fall_damage": {
+          "value": 0.0
+        },
+        "minecraft:damage_sensor": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      },
+      //Umbrella; phase 2: gravity
+      "astroExp:umbrella_g_vampire": {
+        "minecraft:timer": {
+          "time": 0.01,
+          "looping": false,
+          "time_down_event": {
+            "filter": { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:5"},
+            "event": "vampire_looses_gravity",
+            "target": "self"
+          }
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:type_family": {
+          "family": [ "player", "holds_umbrella", "vampire" ]
+        },
+        "minecraft:fall_damage": {
+          "value": 0.0
+        },
+        "minecraft:damage_sensor": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      },
+
+      //-------WEREWOLF-------
+      //Umbrella; phase 1: no gravity
+      "astroExp:umbrella_nG_werewolf": {
+        "minecraft:timer": {
+          "time": 0.01,
+          "looping": false,
+          "time_down_event": {
+            "event": "werewolf_gets_gravity",
+            "target": "self"
+          }
+        },
+        "minecraft:physics": {
+          "has_gravity": false
+        },
+        "minecraft:type_family": {
+          "family": [ "player", "holds_umbrella", "werewolf" ]
+        },
+        "minecraft:fall_damage": {
+          "value": 0.0
+        },
+        "minecraft:damage_sensor": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      },
+      //Umbrella; phase 2: gravity
+      "astroExp:umbrella_g_werewolf": {
+        "minecraft:timer": {
+          "time": 0.01,
+          "looping": false,
+          "time_down_event": {
+            "filter": { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:5"},
+            "event": "werewolf_looses_gravity",
+            "target": "self"
+          }
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:type_family": {
+          "family": [ "player", "holds_umbrella", "werewolf" ]
+        },
+        "minecraft:fall_damage": {
+          "value": 0.0
+        },
+        "minecraft:damage_sensor": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      },
+      //END UMBRELLA COMPONENTS
+      
+      //Panic necklace item
+      "astroExp:panic_necklace": {
+        "minecraft:movement": {
+          "value": 0.24
+        }
+      },
+
+      //Shield item
+      "astroExp:shield": {
+        "minecraft:movement": {
+          "value": 0.0
+        },
+        "minecraft:knockback_resistance": {
+          "value": 1.0
+        },
+        "minecraft:damage_sensor": [
+          {
+            "cause": "attack",
+            "deals_damage": false
+          },
+          {
+            "cause": "contact",
+            "deals_damage": false
+          },
+          {
+            "cause": "projectile",
+            "deals_damage": false
+          }
+        ]
+      },
+
+      //Light shield
+      "astroExp:light_shield": {
+        "minecraft:movement": {
+          "value": 0.08
+        },
+        "minecraft:knockback_resistance": {
+          "value": 1.0
+        }
+      },
+
+      //Fire resistance item
+      "astroExp:auto_defender": {
+        "minecraft:fire_immune": true
+      },
+
+      //Golden air bubbles item - not in use
+      "astroExp:golden_air_bubbles": {
+        "minecraft:damage_sensor": [
+          {
+            "cause": "drowning",
+            "deals_damage": false
+          }
+        ]
+      },
+
+      //EXPLOSION AMULET
+      "astroExp:explosion_amulet": {
+        "minecraft:damage_sensor": [
+          {
+            "cause": "entity_explosion",
+            "deals_damage": false
+          },
+          {
+            "cause": "block_explosion",
+            "deals_damage": false
+          }
+        ]
+      },
+
+      //POTION AMULET
+      "astroExp:potion_amulet": {
+        "minecraft:damage_sensor": [
+          {
+            "cause": "magic",
+            "deals_damage": false
+          }
+        ]
+      },
+
+      //GOLDEN FEATHER
+      "astroExp:golden_feather": {
+        "minecraft:damage_sensor": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      }
+    },
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:player"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:breathable": {
+        "totalSupply": 20,
+        "suffocateTime": -1,
+        "generatesBubbles": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+		  "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [ 0.4, -0.15, 0.04 ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [ -0.4, -0.15, 0.04 ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      
+      /*------------------------------------------------------------
+      ----This is testing whether the player holds a custom item----
+      ------------and triggers the corresponding events-------------
+      -------------------------------------------------------------*/
+      "minecraft:environment_sensor": [
+        //Reset of all standard player components
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "werewolf"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "vampire"}
+              ]
+            },
+            "event": "astroExp:become_standard_player"
+          }
+        },
+        //Reset of player components for vampire
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [
+                { "test": "is_family", "subject": "self", "value": "vampire"}
+              ]
+            },
+            "event": "astroExp:become_vampire"
+          }
+        },
+        //Reset of player components for werewolf day
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "is_family", "subject": "self", "value": "werewolf"},
+                { "test" : "is_daytime", "value" : true }
+              ]
+            },
+            "event": "astroExp:become_day_werewolf"
+          }
+        },
+        //Reset of player components for werewolf night
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "is_family", "subject": "self", "value": "werewolf"},
+                { "test" : "is_daytime", "value" : false }
+              ]
+            },
+            "event": "astroExp:become_night_werewolf"
+          }
+        },
+
+        /*---------------------------------
+        -----------CUSTOM ITEMS------------
+        ---------------------------------*/
+
+        //  +++ WEAPONS +++
+
+        //    + SWORDS +
+        //TIER 1
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:64"}, //Ordinary Jewel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:59"} //Prismarine
+              ]
+            },
+            "event": "astroExp:holds_tier1_sword"
+          }
+        },
+
+        //TIER 2
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:44"}, //Steel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:15"} //Emerald
+              ]
+            },
+            "event": "astroExp:holds_tier2_sword"
+          }
+        },
+
+        //TIER 3
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:60"}, //Ruby
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:61"}, //Sapphire
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:58"} //Amethyst
+              ]
+            },
+            "event": "astroExp:holds_tier3_sword"
+          }
+        },
+
+        //TIER 4
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:63"} //Dark Jewel
+              ]
+            },
+            "event": "astroExp:holds_tier4_sword"
+          }
+        },
+
+        //TIER 5
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:3"} //Star
+              ]
+            },
+            "event": "astroExp:holds_tier5_sword"
+          }
+        },
+
+        //    + DAGGERS +
+        //TIER 1
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:90"}, //Ordinary Jewel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:93"} //Prismarine
+              ]
+            },
+            "event": "astroExp:holds_tier1_dagger"
+          }
+        },
+
+        //TIER 2
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:94"}, //Steel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:79"} //Emerald
+              ]
+            },
+            "event": "astroExp:holds_tier2_dagger"
+          }
+        },
+
+        //TIER 3
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:92"}, //Ruby
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:80"}, //Sapphire
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:89"} //Amethyst
+              ]
+            },
+            "event": "astroExp:holds_tier3_dagger"
+          }
+        },
+
+        //TIER 4
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:91"} //Dark Jewel
+              ]
+            },
+            "event": "astroExp:holds_tier4_dagger"
+          }
+        },
+
+        //TIER 5
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:125"} //Star
+              ]
+            },
+            "event": "astroExp:holds_tier5_dagger"
+          }
+        },
+
+        //TIER WOOD
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:74"} //Wood
+              ]
+            },
+            "event": "astroExp:holds_tierWood_dagger"
+          }
+        },
+
+        //TIER STONE
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:76"}, //Stone
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:78"} //Gold
+              ]
+            },
+            "event": "astroExp:holds_tierStone_dagger"
+          }
+        },
+
+        //TIER IRON
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:77"} //Iron
+              ]
+            },
+            "event": "astroExp:holds_tierIron_dagger"
+          }
+        },
+
+        //TIER DIAMOND
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:75"} //Diamond
+              ]
+            },
+            "event": "astroExp:holds_tierDiamond_dagger"
+          }
+        },
+
+        //    + AXES +
+        //TIER 1
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:111"}, //Ordinary Jewel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:122"} //Prismarine
+              ]
+            },
+            "event": "astroExp:holds_tier1_axe"
+          }
+        },
+
+        //TIER 2
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:123"}, //Steel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:108"} //Emerald
+              ]
+            },
+            "event": "astroExp:holds_tier2_axe"
+          }
+        },
+
+        //TIER 3
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:121"}, //Ruby
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:109"}, //Sapphire
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:110"} //Amethyst
+              ]
+            },
+            "event": "astroExp:holds_tier3_axe"
+          }
+        },
+
+        //TIER 4
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:112"} //Dark Jewel
+              ]
+            },
+            "event": "astroExp:holds_tier4_axe"
+          }
+        },
+
+        //TIER 5
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:124"} //Star
+              ]
+            },
+            "event": "astroExp:holds_tier5_axe"
+          }
+        },
+
+        //TIER WOOD
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:95"} //Wood
+              ]
+            },
+            "event": "astroExp:holds_tierWood_axe"
+          }
+        },
+
+        //TIER STONE
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:105"}, //Stone
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:107"} //Gold
+              ]
+            },
+            "event": "astroExp:holds_tierStone_axe"
+          }
+        },
+
+        //TIER IRON
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:106"} //Iron
+              ]
+            },
+            "event": "astroExp:holds_tierIron_axe"
+          }
+        },
+
+        //TIER DIAMOND
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:96"} //Diamond
+              ]
+            },
+            "event": "astroExp:holds_tierDiamond_axe"
+          }
+        },
+
+        //  + HAMMERS +
+        //TIER 1
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:142"}, //Ordinary Jewel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:127"} //Prismarine
+              ]
+            },
+            "event": "astroExp:holds_tier1_hammer"
+          }
+        },
+
+        //TIER 2
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:42"}, //Steel
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:139"} //Emerald
+              ]
+            },
+            "event": "astroExp:holds_tier2_hammer"
+          }
+        },
+
+        //TIER 3
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:144"}, //Ruby
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:140"}, //Sapphire
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:141"} //Amethyst
+              ]
+            },
+            "event": "astroExp:holds_tier3_hammer"
+          }
+        },
+
+        //TIER 4
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:143"} //Dark Jewel
+              ]
+            },
+            "event": "astroExp:holds_tier4_hammer"
+          }
+        },
+
+        //TIER 5
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:14"} //Star
+              ]
+            },
+            "event": "astroExp:holds_tier5_hammer"
+          }
+        },
+
+        //TIER WOOD
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:126"} //Wood
+              ]
+            },
+            "event": "astroExp:holds_tierWood_hammer"
+          }
+        },
+
+        //TIER STONE
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:128"}, //Stone
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:138"} //Gold
+              ]
+            },
+            "event": "astroExp:holds_tierStone_hammer"
+          }
+        },
+
+        //TIER IRON
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:137"} //Iron
+              ]
+            },
+            "event": "astroExp:holds_tierIron_hammer"
+          }
+        },
+
+        //TIER DIAMOND
+        {
+          "on_environment": {
+            "filters": { 
+              "any_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:43"} //Diamond
+              ]
+            },
+            "event": "astroExp:holds_tierDiamond_hammer"
+          }
+        },
+
+        //Upgraded Swords
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:11"}
+              ]
+            },
+            "event": "astroExp:holds_star_speed_sword"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:13"}
+              ]
+            },
+            "event": "astroExp:holds_star_damage_sword"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:12"}
+              ]
+            },
+            "event": "astroExp:holds_star_health_sword"
+          }
+        },
+
+        //  +++ Umbrella only: Testing for standard, vampire & werewolf player... +++
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:5"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "vampire"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "werewolf"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "holds_umbrella"}
+              ]
+            },
+            "event": "astroExp:holds_umbrella"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:5"},
+                { "test": "is_family", "subject": "self", "value": "vampire"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "holds_umbrella"}
+              ]
+            },
+            "event": "astroExp:holds_umbrella_vampire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:5"},
+                { "test": "is_family", "subject": "self", "value": "werewolf"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "holds_umbrella"}
+              ]
+            },
+            "event": "astroExp:holds_umbrella_werewolf"
+          }
+        },
+
+        //  +++ OTHER ITEMS +++
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:4"},
+                { "test": "in_clouds", "subject": "self", "value": false}
+              ]
+            },
+            "event": "astroExp:holds_jetpack"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:6"}
+              ]
+            },
+            "event": "astroExp:holds_panic_necklace"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:7"}
+              ]
+            },
+            "event": "astroExp:holds_defender"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:8"}
+              ]
+            },
+            "event": "astroExp:holds_shield"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:9"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "holds_golden_air_bubbles"}
+              ]
+            },
+            "event": "astroExp:holds_golden_air_bubbles"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:29"}
+              ]
+            },
+            "event": "astroExp:holds_light_shield"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:169"}
+              ]
+            },
+            "event": "astroExp:holds_explosion_amulet"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:170"}
+              ]
+            },
+            "event": "astroExp:holds_potion_amulet"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:171"}
+              ]
+            },
+            "event": "astroExp:holds_golden_feather"
+          }
+        },
+        
+        //RITUAL: Turning a player into a Werewolf/Vampire
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:12"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "werewolf"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "vampire"},
+                { "test" : "is_daytime", "value" : false }
+              ]
+            },
+            "event": "astroExp:become_vampire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { 
+              "all_of": [ 
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "yellow_flower:13"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "werewolf"},
+                { "test": "is_family", "subject": "self", "operator": "!=", "value": "vampire"},
+                { "test" : "is_daytime", "value" : false }
+              ]
+            },
+            "event": "astroExp:become_night_werewolf"
+          }
+        }
+      ]
+    },
+    "events":{
+      /*----------------------------------
+      ------------RESET EVENTS------------
+      ----------------------------------*/
+
+      //Standard Player Reset
+      "astroExp:become_standard_player": { 
+        "add": { 
+          "component_groups": [ 
+            "minecraft:standard_player"
+          ] 
+        }, 
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:werewolf_day",
+            "astroExp:werewolf_night",
+            "astroExp:vampire",
+            
+            "astroExp:speedy_player",
+            "astroExp:jetpack_player",
+            "astroExp:auto_defender",
+            "astroExp:shield",
+            "astroExp:golden_air_bubbles",
+            "astroExp:light_shield",
+            "astroExp:explosion_amulet",
+            "astroExp:potion_amulet",
+
+            "astroExp:umbrella_nG",
+            "astroExp:umbrella_g",
+            "astroExp:umbrella_nG_vampire",
+            "astroExp:umbrella_g_vampire",
+            "astroExp:umbrella_nG_werewolf",
+            "astroExp:umbrella_g_werewolf",
+
+            "astroExp:tier1_sword",
+            "astroExp:tier2_sword",
+            "astroExp:tier3_sword",
+            "astroExp:tier4_sword",
+            "astroExp:tier5_sword",
+
+            "astroExp:tier1_dagger",
+            "astroExp:tier2_dagger",
+            "astroExp:tier3_dagger",
+            "astroExp:tier4_dagger",
+            "astroExp:tier5_dagger",
+            "astroExp:tierWood_dagger",
+            "astroExp:tierStone_dagger",
+            "astroExp:tierIron_dagger",
+            "astroExp:tierDiamond_dagger",
+
+            "astroExp:tier1_axe",
+            "astroExp:tier2_axe",
+            "astroExp:tier3_axe",
+            "astroExp:tier4_axe",
+            "astroExp:tier5_axe",
+            "astroExp:tierWood_axe",
+            "astroExp:tierStone_axe",
+            "astroExp:tierIron_axe",
+            "astroExp:tierDiamond_axe",
+
+            "astroExp:tier1_hammer",
+            "astroExp:tier2_hammer",
+            "astroExp:tier3_hammer",
+            "astroExp:tier4_hammer",
+            "astroExp:tier5_hammer",
+            "astroExp:tierWood_hammer",
+            "astroExp:tierStone_hammer",
+            "astroExp:tierIron_hammer",
+            "astroExp:tierDiamond_hammer",
+            
+            "astroExp:star_health_sword",
+            "astroExp:star_damage_sword",
+            "astroExp:star_speed_sword"
+          ] 
+        } 
+      },
+
+      //Vampire Reset
+      "astroExp:become_vampire": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:vampire" 
+          ] 
+        }, 
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:werewolf_day",
+            "astroExp:werewolf_night",
+            "minecraft:standard_player",
+            
+            "astroExp:speedy_player",
+            "astroExp:jetpack_player",
+            "astroExp:auto_defender",
+            "astroExp:shield",
+            "astroExp:golden_air_bubbles",
+            "astroExp:light_shield",
+            "astroExp:explosion_amulet",
+            "astroExp:potion_amulet",
+
+            "astroExp:umbrella_nG",
+            "astroExp:umbrella_g",
+            "astroExp:umbrella_nG_vampire",
+            "astroExp:umbrella_g_vampire",
+            "astroExp:umbrella_nG_werewolf",
+            "astroExp:umbrella_g_werewolf",
+
+            "astroExp:tier1_sword",
+            "astroExp:tier2_sword",
+            "astroExp:tier3_sword",
+            "astroExp:tier4_sword",
+            "astroExp:tier5_sword",
+
+            "astroExp:tier1_dagger",
+            "astroExp:tier2_dagger",
+            "astroExp:tier3_dagger",
+            "astroExp:tier4_dagger",
+            "astroExp:tier5_dagger",
+            "astroExp:tierWood_dagger",
+            "astroExp:tierStone_dagger",
+            "astroExp:tierIron_dagger",
+            "astroExp:tierDiamond_dagger",
+
+            "astroExp:tier1_axe",
+            "astroExp:tier2_axe",
+            "astroExp:tier3_axe",
+            "astroExp:tier4_axe",
+            "astroExp:tier5_axe",
+            "astroExp:tierWood_axe",
+            "astroExp:tierStone_axe",
+            "astroExp:tierIron_axe",
+            "astroExp:tierDiamond_axe",
+
+            "astroExp:tier1_hammer",
+            "astroExp:tier2_hammer",
+            "astroExp:tier3_hammer",
+            "astroExp:tier4_hammer",
+            "astroExp:tier5_hammer",
+            "astroExp:tierWood_hammer",
+            "astroExp:tierStone_hammer",
+            "astroExp:tierIron_hammer",
+            "astroExp:tierDiamond_hammer",
+            
+            "astroExp:star_health_sword",
+            "astroExp:star_damage_sword",
+            "astroExp:star_speed_sword"
+          ] 
+        }
+      },
+
+      //Werewolf Reset Day
+      "astroExp:become_day_werewolf": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:werewolf_day" 
+          ] 
+        }, 
+        "remove": { 
+          "component_groups": [ 
+            "minecraft:standard_player",
+            "astroExp:werewolf_night",
+            "astroExp:vampire",
+            
+            "astroExp:speedy_player",
+            "astroExp:jetpack_player",
+            "astroExp:auto_defender",
+            "astroExp:shield",
+            "astroExp:golden_air_bubbles",
+            "astroExp:light_shield",
+            "astroExp:explosion_amulet",
+            "astroExp:potion_amulet",
+
+            "astroExp:umbrella_nG",
+            "astroExp:umbrella_g",
+            "astroExp:umbrella_nG_vampire",
+            "astroExp:umbrella_g_vampire",
+            "astroExp:umbrella_nG_werewolf",
+            "astroExp:umbrella_g_werewolf",
+
+            "astroExp:tier1_sword",
+            "astroExp:tier2_sword",
+            "astroExp:tier3_sword",
+            "astroExp:tier4_sword",
+            "astroExp:tier5_sword",
+
+            "astroExp:tier1_dagger",
+            "astroExp:tier2_dagger",
+            "astroExp:tier3_dagger",
+            "astroExp:tier4_dagger",
+            "astroExp:tier5_dagger",
+            "astroExp:tierWood_dagger",
+            "astroExp:tierStone_dagger",
+            "astroExp:tierIron_dagger",
+            "astroExp:tierDiamond_dagger",
+
+            "astroExp:tier1_axe",
+            "astroExp:tier2_axe",
+            "astroExp:tier3_axe",
+            "astroExp:tier4_axe",
+            "astroExp:tier5_axe",
+            "astroExp:tierWood_axe",
+            "astroExp:tierStone_axe",
+            "astroExp:tierIron_axe",
+            "astroExp:tierDiamond_axe",
+
+            "astroExp:tier1_hammer",
+            "astroExp:tier2_hammer",
+            "astroExp:tier3_hammer",
+            "astroExp:tier4_hammer",
+            "astroExp:tier5_hammer",
+            "astroExp:tierWood_hammer",
+            "astroExp:tierStone_hammer",
+            "astroExp:tierIron_hammer",
+            "astroExp:tierDiamond_hammer",
+            
+            "astroExp:star_health_sword",
+            "astroExp:star_damage_sword",
+            "astroExp:star_speed_sword"
+          ] 
+        }
+      },
+      //Werewolf Reset Night
+      "astroExp:become_night_werewolf": { 
+        "add": { 
+          "component_groups": [
+            "astroExp:werewolf_night"
+          ] 
+        }, 
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:werewolf_day",
+            "minecraft:standard_player",
+            "astroExp:vampire",
+            
+            "astroExp:speedy_player",
+            "astroExp:jetpack_player",
+            "astroExp:auto_defender",
+            "astroExp:shield",
+            "astroExp:golden_air_bubbles",
+            "astroExp:light_shield",
+            "astroExp:explosion_amulet",
+            "astroExp:potion_amulet",
+
+            "astroExp:umbrella_nG",
+            "astroExp:umbrella_g",
+            "astroExp:umbrella_nG_vampire",
+            "astroExp:umbrella_g_vampire",
+            "astroExp:umbrella_nG_werewolf",
+            "astroExp:umbrella_g_werewolf",
+
+            "astroExp:tier1_sword",
+            "astroExp:tier2_sword",
+            "astroExp:tier3_sword",
+            "astroExp:tier4_sword",
+            "astroExp:tier5_sword",
+
+            "astroExp:tier1_dagger",
+            "astroExp:tier2_dagger",
+            "astroExp:tier3_dagger",
+            "astroExp:tier4_dagger",
+            "astroExp:tier5_dagger",
+            "astroExp:tierWood_dagger",
+            "astroExp:tierStone_dagger",
+            "astroExp:tierIron_dagger",
+            "astroExp:tierDiamond_dagger",
+
+            "astroExp:tier1_axe",
+            "astroExp:tier2_axe",
+            "astroExp:tier3_axe",
+            "astroExp:tier4_axe",
+            "astroExp:tier5_axe",
+            "astroExp:tierWood_axe",
+            "astroExp:tierStone_axe",
+            "astroExp:tierIron_axe",
+            "astroExp:tierDiamond_axe",
+
+            "astroExp:tier1_hammer",
+            "astroExp:tier2_hammer",
+            "astroExp:tier3_hammer",
+            "astroExp:tier4_hammer",
+            "astroExp:tier5_hammer",
+            "astroExp:tierWood_hammer",
+            "astroExp:tierStone_hammer",
+            "astroExp:tierIron_hammer",
+            "astroExp:tierDiamond_hammer",
+            
+            "astroExp:star_health_sword",
+            "astroExp:star_damage_sword",
+            "astroExp:star_speed_sword"
+          ] 
+        }
+      },
+      //END RESET EVENTS
+
+      /*---------------------------------------------
+      -----------------Umbrella Events---------------
+      ----------------------------------------------*/
+      //Initializing Loop Events
+      "astroExp:holds_umbrella": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:umbrella_nG" 
+          ] 
+        }
+      },
+      "astroExp:holds_umbrella_werewolf": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:umbrella_nG_werewolf" 
+          ] 
+        }
+      },
+      "astroExp:holds_umbrella_vampire": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:umbrella_nG_vampire" 
+          ] 
+        }
+      },
+
+      //Repeating Events Werewolf
+      "astroExp:werewolf_gets_gravity": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:umbrella_g_werewolf" 
+          ] 
+        },
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:umbrella_nG_werewolf" 
+          ] 
+        }
+      },
+      "astroExp:werewolf_looses_gravity": { 
+        "add": { 
+          "component_groups": [ 
+             "astroExp:umbrella_nG_werewolf"
+          ] 
+        },
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:umbrella_g_werewolf"
+          ] 
+        }
+      },
+
+      //Repeating Events Vampire
+      "astroExp:vampire_gets_gravity": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:umbrella_g_vampire" 
+          ] 
+        },
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:umbrella_nG_vampire" 
+          ] 
+        }
+      },
+      "astroExp:vampire_looses_gravity": { 
+        "add": { 
+          "component_groups": [ 
+             "astroExp:umbrella_nG_vampire"
+          ] 
+        },
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:umbrella_g_vampire"
+          ] 
+        }
+      },
+
+      //Repeating Events Standard Player
+      "astroExp:player_gets_gravity": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:umbrella_g" 
+          ] 
+        },
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:umbrella_nG" 
+          ] 
+        }
+      },
+      "astroExp:player_looses_gravity": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:umbrella_nG" 
+          ] 
+        },
+        "remove": { 
+          "component_groups": [ 
+            "astroExp:umbrella_g" 
+          ] 
+        }
+      },
+      //END UMBRELLA EVENTS
+
+      //START ITEM EVENTS
+      "astroExp:become_speedy_player": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:speedy_player" 
+          ] 
+        }
+      },
+      "astroExp:holds_jetpack": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:jetpack_player" 
+          ] 
+        }
+      },
+      "astroExp:holds_panic_necklace": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:panic_necklace" 
+          ] 
+        }
+      },
+      "astroExp:holds_defender": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:auto_defender" 
+          ] 
+        }
+      },
+      "astroExp:holds_shield": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:shield" 
+          ] 
+        }
+      },
+      "astroExp:holds_golden_air_bubbles": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:golden_air_bubbles" 
+          ] 
+        }
+      },
+      "astroExp:holds_light_shield": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:light_shield" 
+          ] 
+        }
+      },
+      "astroExp:holds_explosion_amulet": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:explosion_amulet" 
+          ] 
+        }
+      },
+      "astroExp:holds_potion_amulet": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:potion_amulet" 
+          ] 
+        }
+      },
+      "astroExp:holds_golden_feather": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:golden_feather" 
+          ] 
+        }
+      },
+      //END ITEM EVENTS
+
+      //+++START WEAPON EVENTS+++
+      //SWORDS
+      "astroExp:holds_tier1_sword": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier1_sword" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier2_sword": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier2_sword" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier3_sword": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier3_sword" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier4_sword": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier4_sword" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier5_sword": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier5_sword" 
+          ] 
+        }
+      },
+
+      //DAGGERS
+      "astroExp:holds_tier1_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier1_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier2_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier2_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier3_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier3_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier4_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier4_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier5_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier5_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierWood_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierWood_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierStone_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierStone_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierIron_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierIron_dagger" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierDiamond_dagger": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierDiamond_dagger" 
+          ] 
+        }
+      },
+
+      //AXES
+      "astroExp:holds_tier1_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier1_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier2_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier2_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier3_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier3_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier4_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier4_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier5_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier5_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierWood_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierWood_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierStone_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierStone_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierIron_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierIron_axe" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierDiamond_axe": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierDiamond_axe" 
+          ] 
+        }
+      },
+
+      //HAMMERS
+      "astroExp:holds_tier1_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier1_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier2_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier2_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier3_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier3_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier4_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier4_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tier5_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tier5_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierWood_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierWood_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierStone_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierStone_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierIron_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierIron_hammer" 
+          ] 
+        }
+      },
+      "astroExp:holds_tierDiamond_hammer": { 
+        "add": { 
+          "component_groups": [ 
+            "astroExp:tierDiamond_hammer" 
+          ] 
+        }
+      },
+
+      //EFFECT SWORDS
+      "astroExp:holds_star_speed_sword": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:star_speed_sword" 
+          ] 
+        }
+      },
+      "astroExp:holds_star_damage_sword": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:star_damage_sword" 
+          ] 
+        }
+      },
+      "astroExp:holds_star_health_sword": {
+        "add": { 
+          "component_groups": [ 
+            "astroExp:star_health_sword" 
+          ] 
+        }
+      }
+    }
+  }
+}

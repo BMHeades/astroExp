@@ -1,0 +1,40 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:154",
+              "quantity": {
+                "min": 9,
+                "max": 9
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:1"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:73",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:yellow_flower:2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:153",
+              "quantity": 9
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:41"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:flint",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:172",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:flint",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:173",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:flint",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:174",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:flint",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:175",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:flint",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:red_flower:176",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:wood",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:74",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:wood",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:126",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:wood",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:95",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:cobblestone",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:76",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:cobblestone",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:128",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:cobblestone",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:105",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:78",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:138",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:107",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 1
+            },
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:77",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:137",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": 2
+            },
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:106",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 64
+            },
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:62",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

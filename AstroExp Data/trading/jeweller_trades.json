@@ -1,0 +1,104 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:159",
+              "quantity": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:45"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:57"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:155",
+              "quantity": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:57"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:156",
+              "quantity": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:46"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:157",
+              "quantity": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:47"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:red_flower:158",
+              "quantity": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:red_flower:48"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

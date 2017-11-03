@@ -1,8 +1,0 @@
-## Block names
-tile.yellow_flower..name=天文物品 #
-tile.yellow_flower.dandelion.name=天文物品 #
-tile.red_flower.poppy.name=天文物品 #
-item.spawn_egg.entity.shulker.name=Maschine Block	#
-
-## Interaction names
-action.interact.summon_galactic_zombie=加强僵尸 #

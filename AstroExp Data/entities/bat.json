@@ -1,0 +1,273 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      "minecraft:bat_wild": {
+        "minecraft:navigation.float": {
+          "can_float": true
+        },
+        "minecraft:movement.basic": {
+        },
+        "minecraft:can_fly": {
+        },
+        "minecraft:interact": [
+          {
+            "on_interact": {
+              "filters": { 
+                "all_of": [
+                  { "test": "is_family", "subject" : "other", "value" :  "player"},
+                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "yellow_flower:15"}
+                ] 
+              }
+            },
+            "use_item": true,
+            "transform_to_item": "red_flower:9",
+            "play_sounds": "milk",
+            "interact_text": "Extract Life Essence"
+          },
+          {
+            "on_interact": {
+              "filters": { 
+                "all_of": [
+                  { "test": "is_family", "subject" : "other", "value" :  "player"},
+                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "red_flower:208"}
+                ] 
+              },
+              "event": "minecraft:on_tame"
+            },
+            "use_item": true,
+            "play_sounds": "burp",
+            "interact_text": "Tame"
+          }
+        ],
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        },
+        "minecraft:behavior.float_wander": {
+          "priority": 10,
+          "xz_dist": 10,
+          "y_dist": 7,
+          "y_offset": -2.0,
+          "random_reselect": true,
+          "float_duration": [0.1, 0.35]
+        }
+      },
+
+      "minecraft:bat_tamed": {
+        "minecraft:behavior.look_at_player": {
+          "priority": 4
+        },
+        "minecraft:inventory": {
+          "inventory_size": 6,
+          "container_type": "horse"
+        },
+        "minecraft:equippable": {
+          "slots": [
+            {
+              "slot": 0,
+              "item": "saddle",
+              "accepted_items": ["saddle"],
+              "on_equip": {
+                "event": "minecraft:bat_saddled"
+              },
+              "on_unequip": {
+                "event": "minecraft:bat_unsaddled"
+              }
+            },
+            {
+              "slot": 1,
+              "item": "horsearmoriron",
+              "accepted_items": [
+                "horsearmorleather",
+                "horsearmoriron",
+                "horsearmorgold",
+                "horsearmordiamond"
+              ]
+            },
+            {
+              "slot": 2,
+              "item": "red_flower",
+              "accepted_items": ["red_flower"],
+              "on_equip": {
+                "event": "minecraft:boost_speed"
+              },
+              "on_unequip": {
+                "event": "minecraft:boost_speed"
+              }
+            },
+            {
+              "slot": 3,
+              "item": "chest",
+              "accepted_items": ["chest"],
+              "on_equip": {
+                "event": "minecraft:add_slots"
+              },
+              "on_unequip": {
+                "event": "minecraft:add_slots"
+              }
+            },
+            {
+              "slot": 4,
+              "item": "sugar",
+              "accepted_items": ["sugar"],
+              "on_equip": {
+                "event": "minecraft:boost_strength"
+              },
+              "on_unequip": {
+                "event": "minecraft:unboost_strength"
+              }
+            },
+            {
+              "slot": 5,
+              "item": "diamond",
+              "accepted_items": ["diamond"],
+              "on_equip": {
+                "event": "minecraft:boost_health"
+              },
+              "on_unequip": {
+                "event": "minecraft:unboost_health"
+              }
+            }
+          ]
+        },
+        "minecraft:is_tamed": {
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement.basic": {
+        },
+        "minecraft:behavior.follow_owner": {
+          "priority": 2,
+          "speed_multiplier": 1.0,
+          "start_distance": 10,
+          "stop_distance": 2
+        },
+        "minecraft:behavior.float": {
+          "priority": 0
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "speed_multiplier": 0.7
+        },
+        "minecraft:jump.static": {
+        },
+        "minecraft:navigation.walk": {
+          "can_float": true,
+          "avoid_water": true,
+          "avoid_damage_blocks": true
+        }
+      },
+
+      "minecraft:huge_bat": {
+        "minecraft:scale": {
+          "value": 3.0
+        }
+      },
+
+      "minecraft:bat_saddled": {
+        "minecraft:is_saddled": {
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "crouching_skip_interact": true,
+          "interact_text": "action.interact.mount",
+          "family_types": [
+            "player"
+          ],
+          "seats": {
+            "position": [ 0.0, 0.33, -0.13 ]
+          }
+        },
+        "minecraft:input_ground_controlled": {
+        },
+        "minecraft:behavior.player_ride_tamed": {
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:bat"
+      },
+      "minecraft:type_family": {
+        "family":["bat"]          
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+     "minecraft:collision_box": {
+      "width": 0.5,
+      "height": 0.9
+     },
+     "minecraft:fall_damage": {
+       "value": 0.0
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+       "minecraft:nameable": {
+	    },
+      "minecraft:physics": {
+      },
+      "minecraft:loot": {
+          "table": "loot_tables/entities/bat.json"
+      }
+    },
+
+    "events": {
+       "minecraft:bat_saddled": {
+        "add": {
+          "component_groups": [
+            "minecraft:bat_saddled"
+          ]
+        }
+      },
+      "minecraft:bat_unsaddled": {
+        "remove": {
+          "component_groups": [
+            "minecraft:bat_saddled"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:bat_wild"
+          ]
+        }
+      },
+      "minecraft:on_tame": {
+        "remove": {
+          "component_groups": [
+            "minecraft:bat_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:bat_tamed"
+          ]
+        }
+      },
+
+      "minecraft:boost_strength": {
+        "add": {
+          "component_groups": [
+            "minecraft:huge_bat"
+          ]
+        }
+      },
+      "minecraft:unboost_strength": {
+        "remove": {
+          "component_groups": [
+            "minecraft:huge_bat"
+          ]
+        }
+      }
+    }
+  }
+}

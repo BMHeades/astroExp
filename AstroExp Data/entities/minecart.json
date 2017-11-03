@@ -1,0 +1,117 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+    "component_groups": {
+      "minecraft:chested_minecart": {
+        "minecraft:transformation": {
+          "into": "minecraft:chest_minecart",
+          "delay": 0.1
+        }
+      },
+      "minecraft:hopper_minecart": {
+        "minecraft:transformation": {
+          "into": "minecraft:hopper_minecart",
+          "delay": 0.1
+        }
+      },
+      "minecraft:tnt_minecart": {
+        "minecraft:transformation": {
+          "into": "minecraft:tnt_minecart",
+          "delay": 0.1
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:minecart"
+      },
+      "minecraft:is_stackable": {
+      },
+      "minecraft:type_family": {
+        "family": [ "minecart" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.7
+      },
+      "minecraft:rail_movement": {
+      },
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": { 
+              "all_of": [
+                { "test": "is_family", "subject" : "other", "value" :  "player"},
+                { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "chest"}
+              ] 
+            },
+            "event": "minecraft:on_chested"
+          },
+          "use_item": true
+        },
+        {
+          "on_interact": {
+            "filters": { 
+              "all_of": [
+                { "test": "is_family", "subject" : "other", "value" :  "player"},
+                { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "hopper"}
+              ] 
+            },
+            "event": "minecraft:on_hopper"
+          },
+          "use_item": true
+        },
+        {
+          "on_interact": {
+            "filters": { 
+              "all_of": [
+                { "test": "is_family", "subject" : "other", "value" :  "player"},
+                { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "tnt"}
+              ] 
+            },
+            "event": "minecraft:on_tnt"
+          },
+          "use_item": true
+        }
+      ],
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "interact_text": "action.interact.ride.minecart",
+        "pull_in_entities": true,
+
+        "seats": {
+          "position": [ 0.0, -0.2, 0.0 ]
+        }
+      },
+      "minecraft:rail_sensor": {
+        "eject_on_activate": true
+      },
+      "minecraft:physics": {
+      }
+    },
+    "events": {
+      "minecraft:on_chested": {
+        "add": {
+          "component_groups": [
+            "minecraft:chested_minecart"
+          ]
+        }
+      },
+      "minecraft:on_hopper": {
+        "add": {
+          "component_groups": [
+            "minecraft:hopper_minecart"
+          ]
+        }
+      },
+      "minecraft:on_tnt": {
+        "add": {
+          "component_groups": [
+            "minecraft:tnt_minecart"
+          ]
+        }
+      }
+    }
+  }
+}
