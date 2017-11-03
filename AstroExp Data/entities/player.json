@@ -159,14 +159,14 @@
         }
       },
 
-      //Tier 2: Emerald, Steel Swords
+      //Tier 2: Emerald, Steel, Bone Swords
       "astroExp:tier2_sword": {
         "minecraft:attack": {
           "damage": 6.75
         }
       },
 
-      //Tier 3: Ruby, Sapphire, Amethyst Swords
+      //Tier 3: Ruby, Sapphire, Amethyst, Wither Bone Swords
       "astroExp:tier3_sword": {
         "minecraft:attack": {
           "damage": 8
@@ -1027,7 +1027,8 @@
             "filters": { 
               "any_of": [ 
                 { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:44"}, //Steel
-                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:15"} //Emerald
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:15"}, //Emerald
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:254"} //Bone
               ]
             },
             "event": "astroExp:holds_tier2_sword"
@@ -1041,7 +1042,8 @@
               "any_of": [ 
                 { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:60"}, //Ruby
                 { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:61"}, //Sapphire
-                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:58"} //Amethyst
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:58"}, //Amethyst
+                { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "red_flower:255"} //Wither Bone
               ]
             },
             "event": "astroExp:holds_tier3_sword"
