@@ -13,6 +13,29 @@ action.interact.summon_galactic_zombie=Strengthen Zombie	#
 entity.villager.astronomer=Astronomer	#
 
 
+##Loading Messages
+loadingmessage.text.1=The Astronomic Expansion Addon was created by @solvedDev and @bmheades. Follow them on twitter for updates.	#
+loadingmessage.text.2=You can find star powder in dungeon chests and get it through fishing.	#
+loadingmessage.text.3=You can strenghten zombies by giving them star powder. These galactic zombies drop a star potion.	#
+loadingmessage.text.4=Witches have the chance of dropping a magic potion. This potion can be used to craft a potion amulet.	#
+loadingmessage.text.5=Wolves, Ocelots and Polar Bears drop coats.	#
+loadingmessage.text.6=You can transform into a vampire, werewolf, hydra or dragon. The magician knows more about it.	#
+loadingmessage.text.7=Click with an empty extract bottle on a wolf or bat to capture their life essence.	#
+loadingmessage.text.8=Endermen, vindicators and baby zombies drop corrupted items. You can use them to get pigments.	#
+loadingmessage.text.9=Use corrupted items to craft speed, health or damage pigments. You can use them to upgrade your star sword.	#
+loadingmessage.text.10=Parrots drop colored feathers. You can use them for crafting arrows or the golden feather.	#
+loadingmessage.text.11=Villagers unlock more offers if you trade a lot with them!	#
+loadingmessage.text.12=The Astronomer villager is an expert and surely can craft new items.	#
+loadingmessage.text.13=This addon adds some unique new items and weapons. Try them out.
+loadingmessage.text.14=You have no clue what all the items are used for? Take a look at the in-game guide! Click on the "How to Play" button in the pause menu or on a question mark.	#
+loadingmessage.text.15=This addon receives frequent updates!	#
+loadingmessage.text.16=You can tame a bat by giving it some bugs. No no, not these kind of bugs...	#
+loadingmessage.text.17=	#
+loadingmessage.text.18=	#
+loadingmessage.text.19=	#
+loadingmessage.text.20=	#
+
+
 
 ##		INGAME GUIDE
 ##Categories
