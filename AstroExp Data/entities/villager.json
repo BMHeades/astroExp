@@ -106,6 +106,36 @@
       },
 
       //PROFESSIONS
+      //ASTROEXP
+      "woodworker": {
+        "minecraft:type_family": {
+          "family":[ "villager", "peasant", "woodworker" ]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.woodworker",
+          "table": "trading/woodworker_trades.json"
+        }
+      },
+
+      "hobbyist_astronomer": {
+        "minecraft:type_family": {
+          "family":[ "villager", "peasant", "hobbyist_astronomer" ]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.hobbyist_astronomer",
+          "table": "trading/hobbyist_astronomer_trades.json"
+        }
+      },
+
+      //STANDARD
       "farmer":{
         "minecraft:type_family": {
           "family":[ "villager", "peasant", "farmer" ]          
@@ -359,7 +389,35 @@
             },
             "use_item": true,
             "play_sounds": "milk",
-            "interact_text": "action.interact.glue",
+            "interact_text": "action.interact.glue"
+        },
+        {
+            "on_interact": {
+              "filters": { 
+                "all_of": [
+                  { "test": "is_family", "subject" : "other", "value" :  "player"},
+                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "crafting_table"}
+                ] 
+              },
+              "event": "astroExp:become_woodworker"
+            },
+            "use_item": true,
+            "play_sounds": "portal",
+            "interact_text": "action.interact.becomeWoodworker"
+        },
+        {
+            "on_interact": {
+              "filters": { 
+                "all_of": [
+                  { "test": "is_family", "subject" : "other", "value" :  "player"},
+                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "yellow_flower:0"}
+                ] 
+              },
+              "event": "astroExp:become_hobbyist_astronomer"
+            },
+            "use_item": true,
+            "play_sounds": "portal",
+            "interact_text": "action.interact.becomeHobbyistAstronomer"
         }
       ],
 
@@ -798,6 +856,7 @@
         "remove": { "component_groups": [ "baby" ] }
       },
 
+      //ASTROEXP EVENTS
       "astroExp:removeMovement": {
         "add": { "component_groups": [ "no_movement" ] },
         "remove": { "component_groups": [ "standard_movement" ] }
@@ -806,6 +865,16 @@
       "astroExp:addMovement": {
         "add": { "component_groups": [ "standard_movement" ] },
         "remove": { "component_groups": [ "no_movement" ] }
+      },
+
+      "astroExp:become_woodworker": {
+        "add": { "component_groups": [ "woodworker" ] },
+        "remove": { "component_groups": [ "farmer", "fisherman", "shepherd", "fletcher", "librarian", "cartographer", "cleric", "armorer", "weaponsmith", "toolsmith", "butcher", "leatherworker" ] }
+      },
+
+      "astroExp:become_hobbyist_astronomer": {
+        "add": { "component_groups": [ "hobbyist_astronomer" ] },
+        "remove": { "component_groups": [ "farmer", "fisherman", "shepherd", "fletcher", "librarian", "cartographer", "cleric", "armorer", "weaponsmith", "toolsmith", "butcher", "leatherworker" ] }
       }
     }
   }

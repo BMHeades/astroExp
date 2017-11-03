@@ -7,10 +7,14 @@ tile.red_flower.poppy.name=Astronomisches Item	#
 ## Interaction names
 action.interact.summon_galactic_zombie=Stärke Zombie	#
 action.interact.glue.villager=Dorfbewohner festkleben	#
+action.interact.becomeWoodworker=Mache ihn zum Schreiner	#
+action.interact.becomeHobbyistAstronomer=Mache ihn zum Hobby-Astronom	#
 
 
 ## Entity names
 entity.villager.astronomer=Astronom	#
+entity.villager.woodworker=Schreiner	#
+entity.villager.hobbyist_astronomer=Hobby-Astronom	#
 
 
 ##Loading Messages
