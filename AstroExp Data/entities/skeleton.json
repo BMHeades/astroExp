@@ -1,0 +1,336 @@
+{
+	"minecraft:entity": {
+		"format_version": 0.1,
+
+		"component_groups": {
+			"minecraft:boss": {
+				"minecraft:collision_box": {
+					"width": 0.6,
+					"height": 1.95
+				},
+				"minecraft:type_family": {
+					"family": ["skeleton", "undead", "monster"]
+				},
+				"minecraft:breathable": {
+					"totalSupply": 30,
+					"suffocateTime": 0
+				},
+
+				"minecraft:health": {
+					"value": 100,
+					"max": 100
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/skeleton.json"
+				},
+				"minecraft:movement": {
+					"value": 0.5
+				},
+				"minecraft:navigation.walk": {
+					"can_float": true
+				},
+				"minecraft:movement.basic": {},
+				"minecraft:jump.static": {},
+				"minecraft:can_climb": {},
+				"minecraft:shooter": {
+					"type": "Arrow",
+					"def": "minecraft:arrow"
+				},
+				"minecraft:nameable": {},
+				"minecraft:equipment": {
+					"table": "loot_tables/entities/skeleton_gear.json"
+				},
+				"minecraft:behavior.float": {
+					"priority": 0
+				},
+
+				"minecraft:behavior.hurt_by_target": {
+					"priority": 1
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 2,
+					"entity_types": [{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 16
+					}],
+					"must_see": true
+				},
+
+				"minecraft:behavior.ranged_attack": {
+					"attack_interval_min": 0.5,
+					"attack_interval_max": 1.0,
+					"attack_radius": 15,
+					"burst_shots": 5,
+					"burst_interval": 0.4
+				},
+
+				"minecraft:behavior.random_stroll": {
+					"priority": 5,
+					"speed_multiplier": 1
+				},
+				"minecraft:behavior.look_at_player": {
+					"priority": 6,
+					"look_distance": 8
+				},
+				"minecraft:behavior.random_look_around": {
+					"priority": 6
+				},
+				"minecraft:scale": {
+					"value": 2
+				},
+				"minecraft:physics": {}
+			},
+			"minecraft:normal": {
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.95
+			},
+			"minecraft:type_family": {
+				"family": ["skeleton", "undead", "monster"]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+
+			"minecraft:burns_in_daylight": {},
+
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/skeleton.json"
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:navigation.walk": {
+				"can_float": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:shooter": {
+				"type": "Arrow",
+				"def": "minecraft:arrow"
+			},
+			"minecraft:nameable": {},
+			"minecraft:equipment": {
+				"table": "loot_tables/entities/skeleton_gear.json"
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.restrict_sun": {
+				"priority": 1
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"entity_types": [{
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "player"
+					},
+					"max_dist": 16
+				}],
+				"must_see": true
+			},
+			"minecraft:behavior.flee_sun": {
+				"priority": 2,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [{
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "wolf"
+					},
+					"max_dist": 6,
+					"walk_speed_multiplier": 1.2,
+					"sprint_speed_multiplier": 1.2
+				}]
+			},
+			"minecraft:behavior.ranged_attack": {
+				"attack_interval_min": 1,
+				"attack_interval_max": 3,
+				"attack_radius": 15
+			},
+
+			"minecraft:behavior.random_stroll": {
+				"priority": 5,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 6,
+				"look_distance": 8
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 6
+			},
+			"minecraft:physics": {},
+			"minecraft:interact": [{
+				"use_item": true,
+				"play_sounds": "pop",
+				"interact_text": "Unlock",
+				"on_interact": {
+					"filters": {
+						"other_with_item": "iron_sword",
+						"other_with_families": "player"
+					},
+					"event": "minecraft:be_boss",
+					"target": "self"
+				}
+			}]
+			}
+		},
+		"components": {
+			"minecraft:identifier": {
+				"id": "minecraft:skeleton"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.95
+			},
+			"minecraft:type_family": {
+				"family": ["skeleton", "undead", "monster"]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+
+		
+
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/skeleton.json"
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:navigation.walk": {
+				"can_float": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:shooter": {
+				"type": "Arrow",
+				"def": "minecraft:arrow"
+			},
+			"minecraft:nameable": {},
+			"minecraft:equipment": {
+				"table": "loot_tables/entities/skeleton_gear.json"
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.restrict_sun": {
+				"priority": 1
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"entity_types": [{
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "player"
+					},
+					"max_dist": 16
+				}],
+				"must_see": true
+			},
+			"minecraft:behavior.flee_sun": {
+				"priority": 2,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [{
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "wolf"
+					},
+					"max_dist": 6,
+					"walk_speed_multiplier": 1.2,
+					"sprint_speed_multiplier": 1.2
+				}]
+			},
+			"minecraft:behavior.ranged_attack": {
+				"attack_interval_min": 1,
+				"attack_interval_max": 3,
+				"attack_radius": 15
+			},
+
+			"minecraft:behavior.random_stroll": {
+				"priority": 5,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 6,
+				"look_distance": 8
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 6
+			},
+			"minecraft:physics": {},
+			"minecraft:interact": [{
+				"use_item": true,
+				"play_sounds": "pop",
+				"interact_text": "Unlock",
+				"on_interact": {
+					"filters": {
+						"other_with_item": "iron_sword",
+						"other_with_families": "player"
+					},
+					"event": "minecraft:be_boss",
+					"target": "self"
+				}
+			}]
+		},
+		"events": {
+		      "minecraft:entity_spawned": {
+"remove": {
+					"component_groups": [
+						"minecraft:boss"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:normal"
+					]
+				}
+      },
+			"minecraft:be_boss": {
+				"remove": {
+					"component_groups": [
+						"minecraft:normal"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:boss"
+					]
+				}
+			}
+		}
+	}
+}
